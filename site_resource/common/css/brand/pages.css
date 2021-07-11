@@ -1,0 +1,974 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------
+ブランド個別ページブロック
+---------------------------------------------------------- */
+/* ----------------------------------------------------------
+ブランド個別ページブロック / トップ
+---------------------------------------------------------- */
+.brand-index-subtitle h2 { position: relative; margin: 0; line-height: 1; }
+
+.brand-index-subtitle h2 span._en { vertical-align: middle; color: #ff7200; }
+
+.brand-index-subtitle h2 span._en:before { font-family: 'skylark'; line-height: 1; font-weight: normal; -webkit-font-smoothing: antialiased; content: ""; position: absolute; top: 0px; left: 0px; display: block; content: ""; margin-right: 5px; vertical-align: middle; transition-duration: 0.2s; }
+
+.brand-index-subtitle h2._title-news span._en:before { content: ""; }
+
+.brand-index-subtitle h2._title-campain span._en:before { content: ""; }
+
+.brand-index-subtitle h2._title-kids span._en:before { content: ""; }
+
+.brand-index-subtitle h2._title-free span._en:before { font-family: 'icon_book' !important; content: "\e900"; }
+
+.brand-index-subtitle h2 span._ja { font-size: 1.375rem; }
+
+.brand-index-clock { overflow: hidden; }
+
+.brand-index-clock .top-clock-wrap { position: relative; }
+
+.brand-index-clock ._clock-dial { position: absolute; }
+
+.brand-index-clock ._clock-dial::after { content: ""; position: absolute; display: block; width: 150%; left: 25%; }
+
+.brand-index-clock ._clock-dial ._circle { border-radius: 50%; border-style: solid; }
+
+.brand-index-clock ._clock-dial ._item { position: absolute; border-radius: 50%; background: #fff; }
+
+.brand-index-clock ._clock-dial ._item img { width: 100%; opacity: 0.5; border-radius: 50%; }
+
+.brand-index-clock ._clock-dial ._item:not(.is-active) ._balloon { display: none; }
+
+.brand-index-clock ._clock-dial ._item ._time { font-family: 'Roboto', sans-serif; padding: 0; margin: 0; }
+
+.brand-index-clock ._clock-dial ._item ._txt { padding: 0; margin: 0; }
+
+.brand-index-clock ._clock-dial ._item.is-focus img { opacity: 1; }
+
+.brand-index-clock ._clock-dial ._item.is-focus ._time { opacity: 1; }
+
+.brand-index-clock ._clock-dial ._item.is-focus ._txt { opacity: 1; }
+
+.brand-index-clock ._clock-dial ._item:not(.is-active) ._txt { display: none; }
+
+.brand-index-clock ._clock-img { position: absolute; border: 4px #fff solid; background-color: #fff; border-radius: 50%; overflow: hidden; }
+
+.brand-index-clock ._clock-img img { width: 100%; opacity: 0; border-radius: 50%; position: absolute; }
+
+.brand-index-clock ._clock-img img.is-focus { opacity: 1; }
+
+.brand-index-clock ._clock-watch { position: absolute; border-radius: 50%; }
+
+.brand-index-clock ._clock-watch ._face { text-align: center; display: table-cell; vertical-align: middle; border-radius: 50%; }
+
+.brand-index-clock ._clock-watch ._face ._name, .brand-index-clock ._clock-watch ._face ._txt, .brand-index-clock ._clock-watch ._face ._time { margin: 0; padding: 0; line-height: 1; }
+
+.brand-index-clock ._clock-watch ._face ._name { position: relative; font-weight: bold; font-family: 'Roboto', sans-serif; }
+
+.brand-index-clock ._clock-watch ._face ._name::after { content: ""; display: block; font-size: 0; line-height: 0; border-bottom-style: solid; position: absolute; bottom: 0; }
+
+.brand-index-clock ._clock-watch ._face ._txt::before, .brand-index-clock ._clock-watch ._face ._txt::after { content: ""; display: block; font-size: 0; line-height: 0; background-color: #ff7200; display: inline-block; vertical-align: middle; }
+
+.brand-index-clock ._clock-watch ._face ._txt::before { transform: skewX(25deg); }
+
+.brand-index-clock ._clock-watch ._face ._txt::after { transform: skewX(-25deg); }
+
+.brand-index-clock ._clock-watch ._face ._time { color: #ff7200; font-weight: bold; font-family: 'Roboto', sans-serif; }
+
+/* .brand-index-clock-all { ._all-btn { @if $all { border-bottom: 1px #dfdfdf solid; } .mod-wrap { @if $all {margin-top: 0;margin-bottom: 0;} a { @if $all {display: block;text-align: center;} @if $pc {padding: 15px 0;} @if $sp {padding: 10px 0;} span { @if $all { display: inline-block;position: relative;font-weight: bold; color: $color-main; } @if $pc {padding-right: 30px;} @if $sp {padding-right: 24px;} &::before, &::after { @if $all { content: ""; display: block; position: absolute; top: 50%; background-color: $color-main; line-height: 0; font-size: 0; } } &::before { @if $all {right: 0;} @if $pc {width: 19px;height: 3px;margin-top: -2px;} @if $sp {width: 12px;height: 2px;margin-top: -1px;} } &::after { @if $pc {width: 3px;height: 19px;margin-top: -10px;right: 8px;} @if $sp {width: 2px;height: 12px;margin-top: -6px;right: 5px;} } } } } } &.is-active { .mod-wrap a span::after { @if $all {content: none;} } } ._list { @if $all {padding: 0;margin: 0;list-style: none;} li { @if $all {margin: 0;border-bottom: 1px #dfdfdf solid;} @if $pc {padding: 20px 0;position: relative;} @if $sp {padding: 15px 0;} ._time { @if $pc {font-size:$fs14;margin: 0;padding: 0;width: 100px;position: absolute;left: 0;top: 20px;} @if $sp {font-size:$fs13;margin: 0;padding: 0;} } ._txt { @if $all { margin: 0; a:hover{ text-decoration: underline; } } @if $pc {font-size:$fs14;padding: 0 0 0 115px;} @if $sp {font-size:$fs13;} } } } } */
+.brand-index-mv { text-align: center; }
+
+.brand-index-mv ._btn-prev, .brand-index-mv ._btn-next { display: inline-block; padding: 0; margin: 0; vertical-align: top; position: relative; }
+
+.brand-index-mv ._btn-prev a, .brand-index-mv ._btn-next a { font-size: 0; line-height: 0; position: absolute; display: inline-block; top: 50%; left: 0; }
+
+.brand-index-mv ._btn-prev a::before, .brand-index-mv ._btn-next a::before { font-family: FontAwesome; line-height: 1; font-weight: normal; color: #ff7200; position: absolute; left: 0; top: 0; }
+
+.brand-index-mv ._btn-prev a::before { content: '\f053'; }
+
+.brand-index-mv ._btn-next a::before { content: '\f054'; }
+
+.brand-index-mv .slick-dots { list-style: none; display: inline-block; text-align: center; padding: 0; margin: 0; vertical-align: top; }
+
+.brand-index-mv .slick-dots li { vertical-align: top; position: relative; display: inline-block; padding: 0; cursor: pointer; }
+
+.brand-index-mv .slick-dots li button { box-sizing: border-box; border: 0; background: transparent; display: block; outline: none; line-height: 0px; font-size: 0px; color: transparent; padding: 5px; cursor: pointer; }
+
+.brand-index-mv .slick-dots li button:hover, .brand-index-mv .slick-dots li button:focus { outline: none; }
+
+.brand-index-mv .slick-dots li button:hover:before, .brand-index-mv .slick-dots li button:focus:before { background-color: #ff7200; }
+
+.brand-index-mv .slick-dots li button:before { position: absolute; top: 0; left: 0; content: ""; text-align: center; border-radius: 50%; border: 1px #ff7200 solid; }
+
+.brand-index-mv .slick-dots li.slick-active button:before { background-color: #ff7200; }
+
+.brand-index-mv ._items { padding: 0; margin: 0; list-style: none; }
+
+.brand-index-mv ._items ._item { padding: 0; margin: 0; position: relative; }
+
+.brand-index-mv ._items ._item a { display: block; text-decoration: none; }
+
+.brand-index-mv ._items ._item a img { width: 100%; }
+
+.brand-index-mv ._items ._item a ._more { padding: 0; margin: 0; background-color: #ff7200; position: absolute; color: #fff; bottom: 0; text-align: center; opacity: 0; transition-duration: 0.4s; }
+
+.brand-index-mv ._items ._item a ._more::before { font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; display: block; position: absolute; vertical-align: middle; color: #f8de03; }
+
+.brand-index-mv ._items ._item.slick-active a ._more { transition-delay: 1s; opacity: 1; }
+
+.brand-index-mv ._items:not(.slick-slider) li:not(:first-child) { position: absolute; opacity: 0; }
+
+.brand-index-mv.slick-act + .brand-common-section { margin-top: 0; }
+
+.brand-index-abouts-wapper { background-repeat: no-repeat; background-position: center top; }
+
+.brand-index-about h2 { padding: 0; margin: 0 auto; }
+
+.brand-index-about ._item { background: #fff; outline: 1px solid #d8d8d8; }
+
+.brand-index-about ._item img { width: 100%; }
+
+.brand-index-about ._item p { margin: 0; }
+
+.brand-index-about ._item a { display: block; }
+
+.brand-index-about ._item ._texts ._cap { font-weight: bold; }
+
+.brand-index-about ._item ._texts ._txt { color: #000; }
+
+.brand-index-kids ._item, .brand-index-campaign ._item { background: #fff; outline: 1px solid #d8d8d8; }
+
+.brand-index-kids ._item img, .brand-index-campaign ._item img { width: 100%; }
+
+.brand-index-kids ._item p, .brand-index-campaign ._item p { margin: 0; }
+
+.brand-index-kids ._item a, .brand-index-campaign ._item a { display: block; }
+
+.brand-index-kids ._item ._texts ._cap, .brand-index-campaign ._item ._texts ._cap { font-weight: bold; }
+
+.brand-index-kids ._item ._texts ._txt, .brand-index-campaign ._item ._texts ._txt { color: #000; }
+
+.brand-index-kids ._item._item-yellow, .brand-index-campaign ._item._item-yellow { border: 1px solid #ffde00; background: #ffde00; }
+
+.brand-index-kids ._item._item-red, .brand-index-campaign ._item._item-red { border: 1px solid #ff7200; background: #ff7200; }
+
+.brand-index-kids ._item._item-red a ._cap, .brand-index-campaign ._item._item-red a ._cap { color: #ff0; }
+
+.brand-index-kids ._item._item-red a ._txt, .brand-index-campaign ._item._item-red a ._txt { color: #fff; }
+
+.brand-index-kids ._item._item-red ::before, .brand-index-campaign ._item._item-red ::before { color: #ff0; }
+
+.brand-index-kids ._item._item-red ::after, .brand-index-campaign ._item._item-red ::after { color: #ff0; }
+
+.brand-index-free-list ._item img { width: 100%; }
+
+.brand-index-payment { background-color: #faf7ea; }
+
+.brand-index-payment h2 { padding: 0; }
+
+.brand-index-payment ._items p { margin: 0; }
+
+.brand-index-payment ._items img { width: 100%; }
+
+.brand-index-payment ._items ._item { background: #fff; outline: 1px solid #dadada; }
+
+.brand-index-payment ._items ._item ._item-inner { display: flex; justify-content: space-between; align-items: center; }
+
+.brand-index-payment ._items ._item ._image { flex: 1; }
+
+.brand-index-payment ._items ._item ._image span { display: block; border-radius: 50%; overflow: hidden; border: 1px solid #dadada; }
+
+.brand-index-payment ._items ._item ._texts ._cap { font-weight: bold; color: #000; }
+
+.brand-index-payment ._items ._item ._texts ._txt { color: #000; }
+
+.brand-index-payment ._items ._item._item-nomargin { background: none; outline: none; }
+
+.brand-index-payment ._items ._item._item-nomargin a { margin: 0; padding: 0; }
+
+.brand-index-information ._items { padding: 0; margin: 0; display: block; list-style: none; }
+
+.brand-index-information ._items li { margin: 0; border-bottom: 1px #dfdfdf solid; font-size: 1rem; }
+
+.brand-index-information ._items li ._date { color: #000; margin: 0 0 15px; }
+
+.brand-index-information ._items li ._label { display: inline-block; border-style: solid; padding: 0 6px; vertical-align: baseline; }
+
+.brand-index-information ._items li ._label._label-campaign { color: #3d8200; border-color: #3d8200; }
+
+.brand-index-information ._items li ._label._label-fair { color: #fc3131; border-color: #fc3131; }
+
+.brand-index-information ._items li ._label._label-kids { color: #ff9000; border-color: #ff9000; }
+
+.brand-index-information ._items li ._label._label-info { color: #0084e9; border-color: #0084e9; }
+
+.brand-index-information ._items li ._label._label-osusume { color: #fc3131; border-color: #fc3131; }
+
+.brand-index-information ._items li ._txt { margin: 0; }
+
+.brand-index-information ._items li ._txt a:hover { text-decoration: underline; }
+
+.js-information .js-information-list li { display: none; }
+
+.js-information .js-information-list li.display { display: block; }
+
+.js-information.expanded .js-information-list li { display: block; }
+
+.js-information.expanded .mod-btn-toggle::after { display: none; }
+
+/* ----------------------------------------------------------
+ブランド個別ページブロック / クーポントップ
+---------------------------------------------------------- */
+/* ---------- ---------- ---------- */
+.brand-coupon-index-mv { background: #eee; background-size: cover; background-repeat: no-repeat; background-position: center top; }
+
+.brand-coupon-index-mv ._cap h2 { margin: 0; padding: 0; font-weight: bold; line-height: 1.2; }
+
+.brand-coupon-index-mv ._img { padding: 0; margin: 0; background-repeat: no-repeat; background-position: center bottom; }
+
+.brand-coupon-index-mv ._text { margin: 0; }
+
+.brand-coupon-index-mv ._row-dl ._items { padding: 0; margin: 0; list-style: none; }
+
+.brand-coupon-index-mv ._row-dl ._items ._item { padding: 0; margin: 0; display: inline-block; vertical-align: top; }
+
+.brand-coupon-index-mv ._row-dl ._items ._item img { width: 100%; }
+
+/* ---------- ---------- ---------- */
+.brand-coupon-index-spec h3 { font-weight: bold; }
+
+.brand-coupon-index-spec ._items { margin: 0; list-style: none; }
+
+.brand-coupon-index-spec ._item { position: relative; margin: 0; }
+
+.brand-coupon-index-spec ._item ._icon { position: absolute; background-color: #eee; background-position: center; background-repeat: no-repeat; border-radius: 50%; top: 0; left: 0; }
+
+.brand-coupon-index-spec ._item ._icon:before, .brand-coupon-index-spec ._item ._icon:after { position: absolute; top: 0px; left: 0px; font-family: 'skylark'; line-height: 1; font-weight: normal; -webkit-font-smoothing: antialiased; content: ""; color: #fff; }
+
+.brand-coupon-index-spec ._item ._icon:after { position: absolute; top: 0px; left: 0px; content: ""; color: #ff7200; }
+
+.brand-coupon-index-spec ._item ._icon._icon-coupon::before { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-coupon::after { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-shop::before { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-shop::after { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-menu::before { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-menu::after { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-info::before { content: ""; }
+
+.brand-coupon-index-spec ._item ._icon._icon-info::after { content: ""; }
+
+.brand-coupon-index-spec ._item ._cap { padding: 0; margin: 0 0 5px; font-weight: bold; }
+
+.brand-coupon-index-spec ._item ._text { padding: 0; margin: 0; }
+
+.brand-coupon-index-spec ._bottom { padding: 0; margin: 0; color: #ff7200; font-weight: bold; text-align: center; }
+
+/* ---------- ---------- ---------- */
+.brand-coupon-index-dl { background-color: #ff7200; color: #fff; }
+
+.brand-coupon-index-dl ._inner { position: relative; }
+
+.brand-coupon-index-dl ._inner::before { content: ""; position: absolute; top: 0; left: 50%; width: 0; height: 0; border-style: solid; border-color: #ffffff transparent transparent transparent; }
+
+.brand-coupon-index-dl h3 { color: #fff; font-weight: bold; padding: 0; text-align: center; }
+
+.brand-coupon-index-dl ._items { padding: 0; margin: 0; list-style: none; text-align: center; font-size: 0; line-height: 0; }
+
+.brand-coupon-index-dl ._items ._item { padding: 0; margin: 0; display: inline-block; vertical-align: top; }
+
+.brand-coupon-index-dl ._items ._item img { width: 100%; }
+
+/* ---------- ---------- ---------- */
+.brand-coupon-index-otpn { background-color: #fef1d4; border: 1px #d4d4d4 solid; }
+
+.brand-coupon-index-otpn ._inner { text-align: center; position: relative; }
+
+.brand-coupon-index-otpn ._cap { padding: 0; margin: 0 0 5px; font-weight: bold; color: #ff7200; }
+
+.brand-coupon-index-otpn ._img img { width: 100%; }
+
+.brand-coupon-index-otpn ._texts p { padding: 0; margin: 0; }
+
+/* delete class
+btn-icn-arw
+btn-blank
+*/
+/* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / トップ
+---------------------------------------------------------- */
+/* ---------- ---------- ---------- */
+.brand-menu-index-scroll-arrow { position: fixed; left: 0px; right: 0px; bottom: 0px; height: 45px; background: #fff; z-index: 100; text-align: center; cursor: pointer; transition: bottom .1s ease; }
+
+.brand-menu-index-scroll-arrow div span { position: absolute; top: 0; left: 50%; width: 16px; height: 16px; margin-left: -8px; border-left: 2px solid #ff7200; border-bottom: 2px solid #ff7200; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-animation: sdb 2s infinite; animation: sdb 2s infinite; opacity: 0; box-sizing: border-box; }
+
+.brand-menu-index-scroll-arrow div span:nth-of-type(1) { top: 5px; -webkit-animation-delay: 0s; animation-delay: 0s; }
+
+.brand-menu-index-scroll-arrow div span:nth-of-type(2) { top: 15px; -webkit-animation-delay: .15s; animation-delay: .15s; }
+
+@-webkit-keyframes sdb { 0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; } }
+
+@keyframes sdb { 0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; } }
+
+/* ---------- ---------- ---------- */
+.brand-menu-index-visuals a { color: #fff; display: block; }
+
+.brand-menu-index-visuals ul { list-style: none; padding: 0; margin: 0; }
+
+.brand-menu-index-visuals ._item { position: relative; min-height: 300px; }
+
+.brand-menu-index-visuals ._item img { width: 100%; }
+
+.brand-menu-index-visuals ._item ._visual { background-position: center center; background-size: cover; }
+
+.brand-menu-index-visuals ._item ._visual:after { display: block; content: ""; }
+
+.brand-menu-index-visuals ._item ._texts { position: relative; background: #ff7200; }
+
+.brand-menu-index-visuals ._item ._texts i { font-size: 16px; }
+
+.brand-menu-index-visuals ._item ._cap { font-weight: normal; color: #ff0; }
+
+.brand-menu-index-visuals ._item ._cap::before { color: #ff0; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-index-reccomends ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-menu-index-reccomends ._item p { margin: 0; }
+
+.brand-menu-index-reccomends ._item a { display: block; }
+
+.brand-menu-index-reccomends ._item ._texts ._txt { color: #000; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-index-categorys h2 { color: #ff7200; font-size: 1.5rem; margin: 0; padding: 15px 0; border-bottom: 2px solid #ff7200; line-height: 1.2; }
+
+.brand-menu-index-categorys p._date._date-wide span { width: 100%; }
+
+.brand-menu-index-categorys p._date span { display: inline-block; background: #e3e3e3; font-weight: bold; }
+
+.brand-menu-index-categorys ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-menu-index-categorys ._item p { margin: 5px 0; }
+
+.brand-menu-index-categorys ._item a { display: block; }
+
+.brand-menu-index-categorys ._item ._texts ._cap { font-weight: normal; margin: 0; }
+
+.brand-menu-index-dbook ol, .brand-menu-index-dbook ul { list-style: none; padding: 0; margin: 0; }
+
+.brand-menu-index-dbook ._items ._item::before, .brand-menu-index-dbook ._items ._item::after { content: ""; display: table; }
+
+.brand-menu-index-dbook ._items ._item::after { clear: both; }
+
+.brand-menu-index-dbook ._items ._item ._image { float: left; }
+
+.brand-menu-index-dbook ._items ._item ._image img { width: 100%; }
+
+.brand-menu-index-dbook ._items ._item ._texts { float: right; margin-top: 15px; }
+
+.brand-menu-index-dbook ._items ._item ._texts ._btn { margin-top: -12px; }
+
+.brand-menu-index-dbook ._items ._item ._texts ._data { font-weight: bold; }
+
+.brand-menu-index-dbook ._items .btn { position: relative; }
+
+/* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / カテゴリ
+---------------------------------------------------------- */
+.brand-menu-category-title h1 { display: inline-block; padding: 2px 0 2px 14px; font-weight: bold; line-height: 1.2; margin: 0; border-left: 6px #ff7200 solid; }
+
+.brand-menu-category-title ._date { font-weight: bold; background: #ececec; padding: 10px; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-category-list .mod-grid03 { margin-bottom: 20px; }
+
+.brand-menu-category-list ._item { outline: 1px solid #d8d8d8; }
+
+.brand-menu-category-list ._item img { width: 100%; border-bottom: 1px solid #d8d8d8; }
+
+.brand-menu-category-list ._item p { margin: 5px 0; }
+
+.brand-menu-category-list ._item a { display: block; }
+
+.brand-menu-category-list ._item ._texts ._price  { color: #000; font-weight: bold; font-size: 1rem; }
+
+.brand-menu-category-list ._item ._texts ._price span{ }
+
+.brand-menu-category-list ._item ._texts ._labes { margin: 5px 0; }
+
+.brand-menu-category-list ._item ._texts ._labes ._new, .brand-menu-category-list ._item ._texts ._labes ._fair, .brand-menu-category-list ._item ._texts ._labes ._limit, .brand-menu-category-list ._item ._texts ._labes ._takeout { display: inline-block; margin: 3px 0 3px 0; line-height: 30px; padding: 0px 5px; font-weight: bold; }
+
+.brand-menu-category-list ._item ._texts ._labes ._new { border: 2px solid #d2000f; background: #d2000f; color: #fff; }
+
+.brand-menu-category-list ._item ._texts ._labes ._fair { border: 2px solid #ff3d42; color: #ff3d42; }
+
+.brand-menu-category-list ._item ._texts ._labes ._limit { border: 2px solid #7a36a5; color: #7a36a5; }
+
+.brand-menu-category-list ._item ._texts ._labes ._takeout { border: 2px solid #874412; color: #874412; }
+
+/* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / 詳細
+---------------------------------------------------------- */
+.brand-menu-detail-cover ._image { border: 1px solid #d8d8d8; border-right: none; background: #333; }
+
+.brand-menu-detail-cover ._image img { width: 100%; }
+
+.brand-menu-detail-cover ._texts { background: #ff7200; color: #fff; }
+
+.brand-menu-detail-cover ._date { color: #fff; background: #000; text-align: center; padding: 6px 5px 4px 5px; font-size: 14px; font-weight: bold; }
+
+.brand-menu-detail-cover h1 { margin: 0; padding: 0; }
+
+.brand-menu-detail-cover ._cate { color: #ff0; font-size: 18px; border-bottom: 2px solid #ff0; }
+
+.brand-menu-detail-cover .mod-list-notes { color: #fff; }
+
+.brand-menu-detail-cover ._labes ._new, .brand-menu-detail-cover ._labes ._fair, .brand-menu-detail-cover ._labes ._limit, .brand-menu-detail-cover ._labes ._takeout { display: inline-block; margin: 3px 3px 3px 0; line-height: 16px; padding: 0px 5px; font-weight: bold; }
+
+.brand-menu-detail-cover ._labes ._new { border: 2px solid #fff; color: #fff; }
+
+.brand-menu-detail-cover ._labes ._fair { background: #fff; border: 2px solid #fff; color: #ff3d42; }
+
+.brand-menu-detail-cover ._labes ._limit { background: #fff; border: 2px solid #fff; color: #7a36a5; }
+
+.brand-menu-detail-cover ._labes ._takeout { background: #fff; border: 2px solid #fff; color: #874412; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-detail-spec ._valiations { margin-top: -15px; }
+
+.brand-menu-detail-spec ._valiations img { width: 100%; }
+
+.brand-menu-detail-spec ._valiations ul, .brand-menu-detail-spec ._valiations li { list-style: none; margin: 0; padding: 0; }
+
+.brand-menu-detail-spec ._valiations p { margin: 0; }
+
+.brand-menu-detail-spec ._valiations ._item { border-bottom: 1px solid #eee; padding: 15px 0; }
+
+.brand-menu-detail-spec ._valiations ._item ._price { color: #000; font-weight: bold; margin: 5px 0; }
+
+.brand-menu-detail-spec ._valiations ._item ._price span { }
+
+.brand-menu-detail-spec ._valiations ._item ._extra { margin: 5px 0; font-size: 12px; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._calorie { display: inline-block; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._salt { display: inline-block; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._v { display: inline-block; padding: 2px 0 2px 0; margin: 0 5px 0 0; font-size: 14px; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._v span { font-size: 11px; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._m { display: inline-block; background: #e6e6e6; padding: 2px 15px 2px 8px; position: relative; }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._m:before { content: ""; position: absolute; top: 0; right: 0; width: 10px; height: 10px; margin-top: -10px; margin-right: -10px; box-sizing: border-box; border: 10px solid transparent; border-left: 10px solid #fff; transform: translate(0px, 0px) rotate(-45deg); }
+
+.brand-menu-detail-spec ._valiations ._item ._extra ._m:after { content: ""; position: absolute; bottom: 0; right: 0; width: 10px; height: 10px; margin-bottom: -10px; margin-right: -10px; box-sizing: border-box; border: 10px solid transparent; border-left: 10px solid #fff; transform: translate(0px, 0px) rotate(45deg); }
+
+.brand-menu-detail-spec ._description { border: 2px solid #eee; padding: 20px; }
+
+.brand-menu-detail-spec ._description p { margin: 0; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-detail-flyer { text-align: center; }
+
+.brand-menu-detail-flyer img { max-width: 100%; border: 1px solid #d8d8d8; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-detail-recommends ._item { border: 1px solid #d8d8d8; }
+
+.brand-menu-detail-recommends ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-menu-detail-recommends ._item p { margin: 0; }
+
+.brand-menu-detail-recommends ._item a { display: block; }
+
+.brand-menu-detail-recommends ._item a { display: flex; }
+
+.brand-menu-detail-recommends ._item ._texts ._price { color: #000; font-weight: bold; }
+
+.brand-menu-detail-recommends ._item ._texts ._price span { ; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-detail-popular ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-menu-detail-popular ._item p { margin: 5px 0; }
+
+.brand-menu-detail-popular ._item a { display: block; }
+
+.brand-menu-detail-popular ._item ._texts ._cap { margin: 0; }
+
+/* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / ランキング
+---------------------------------------------------------- */
+.brand-menu-ranking-title h1 { display: inline-block; padding: 2px 0 2px 14px; font-weight: bold; line-height: 1.2; margin: 0; border-left: 6px #ff7200 solid; }
+
+/* ---------- ---------- ---------- */
+.brand-menu-ranking-main ._items { list-style: none; margin: 0; padding: 0; }
+
+.brand-menu-ranking-main ._item { margin: 0; }
+
+.brand-menu-ranking-main ._item ._image svg path { fill: red; }
+
+.brand-menu-ranking-main ._item ._image ._no { color: #ff7200; }
+
+.brand-menu-ranking-main ._item._lank-best3 ._image img { outline: 3px solid #ff7200; }
+
+.brand-menu-ranking-main ._item._lank-best3 ._image svg path { fill: #ff7200; }
+
+.brand-menu-ranking-main ._item._lank-best3 ._image ._no { color: #fff; }
+
+.brand-menu-ranking-main ._texts-inner { padding: 0 0 0 15px; }
+
+.brand-menu-ranking-main ._image { position: relative; }
+
+.brand-menu-ranking-main ._image img { width: 100%; }
+
+.brand-menu-ranking-main ._image svg { position: absolute; top: 0px; left: 0px; }
+
+.brand-menu-ranking-main ._image svg path { fill: #ff7200; }
+
+.brand-menu-ranking-main ._image ._no { position: absolute; left: 0; color: #fff; text-align: center; font-weight: bold; }
+
+.brand-menu-ranking-main ._image ._no span { font-weight: normal; margin: 0 0 0 2px; }
+
+.brand-menu-ranking-main ._texts ._cap { color: #ff7200; }
+
+.brand-menu-ranking-main ._texts ._price { color: #000; font-weight: bold; }
+
+.brand-menu-ranking-main ._texts ._price span { }
+
+.brand-menu-ranking-main ._texts ._labes { margin: 5px 0; }
+
+.brand-menu-ranking-main ._texts ._labes ._new, .brand-menu-ranking-main ._texts ._labes ._fair, .brand-menu-ranking-main ._texts ._labes ._limit, .brand-menu-ranking-main ._texts ._labes ._takeout { display: inline-block; margin: 3px 0 3px 0; line-height: 30px; padding: 0px 5px; font-weight: bold; }
+
+.brand-menu-ranking-main ._texts ._labes ._new { border: 2px solid #d2000f; background: #d2000f; color: #fff; }
+
+.brand-menu-ranking-main ._texts ._labes ._fair { border: 2px solid #ff3d42; color: #ff3d42; }
+
+.brand-menu-ranking-main ._texts ._labes ._limit { border: 2px solid #7a36a5; color: #7a36a5; }
+
+.brand-menu-ranking-main ._texts ._labes ._takeout { border: 2px solid #874412; color: #874412; }
+
+@media (min-width: 768px), print { /* ----------------------------------------------------------
+ブランド個別ページブロック / トップ
+---------------------------------------------------------- */
+  .brand-index-subtitle h2 { margin: 60px 0 30px 0; }
+  .brand-index-subtitle h2 span._en { margin-right: 10px; padding-right: 20px; padding-left: 50px; border-right: 1px #ddd solid; font-size: 2.5rem; }
+  .brand-index-subtitle h2 span._en:before { font-size: 44px; transform: translate(0, -6px); }
+  .brand-index-subtitle h2._title-news span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-campain span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-kids span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-free span._en:before { font-size: 2.375rem; top: 5px; }
+  .brand-index-clock { height: 630px; }
+  .brand-index-clock .top-clock-wrap { height: 630px; }
+  .brand-index-clock ._clock-dial { width: 774px; height: 774px; top: -66px; left: 427px; }
+  .brand-index-clock ._clock-dial::after { top: 66px; height: 630px; }
+  .brand-index-clock ._clock-dial ._circle { width: 774px; height: 774px; border-width: 14px; }
+  .brand-index-clock ._clock-dial ._item { width: 45px; height: 45px; top: 365px; left: 365px; }
+  .brand-index-clock ._clock-dial ._item ._time { padding: 0; margin: 0; position: absolute; top: 50%; right: 100%; color: #ff7200; opacity: 0.43; white-space: nowrap; letter-spacing: -1px; font-size: 2.875rem; margin-top: -45px; margin-right: 15px; line-height: 90px; }
+  .brand-index-clock ._clock-dial ._item ._txt { position: absolute; top: 50%; right: 100%; opacity: 0.43; font-size: 0.813rem; margin-top: -37px; margin-right: 152px; width: 180px; color: #fff; background-color: #ff7200; padding: 15px 17px; padding: 5px 17px; border-radius: 4px; height: 73px; display: flex; align-items: center; }
+  .brand-index-clock ._clock-dial ._item ._txt::before { content: ""; display: block; position: absolute; left: 100%; top: 50%; margin-top: -8px; width: 0; height: 0; border-style: solid; border-width: 8px 0 8px 12px; border-color: transparent transparent transparent #ff7200; }
+  .brand-index-clock ._clock-dial ._item.is-focus { width: 90px; height: 90px; border-width: 4px; border-style: solid; margin-top: -25px; margin-left: -23px; }
+  .brand-index-clock ._clock-dial ._item.is-focus ._time { font-size: 3.5rem; }
+  .brand-index-clock ._clock-dial ._item.is-focus ._txt { margin-top: -55px; margin-right: 170px; width: 218px; font-size: 1rem; padding: 15px 20px; padding: 5px 20px; height: 110px; display: flex; align-items: center; }
+  .brand-index-clock ._clock-img { width: 478px; height: 478px; top: 82px; right: 10px; }
+  .brand-index-clock ._clock-watch { top: 320px; right: 0; width: 266px; height: 266px; padding: 10px 0 0 10px; }
+  .brand-index-clock ._clock-watch ._face { width: 246px; height: 246px; }
+  .brand-index-clock ._clock-watch ._face ._name { font-size: 24px; padding-bottom: 10px; }
+  .brand-index-clock ._clock-watch ._face ._name::after { width: 33px; border-bottom-width: 2px; left: calc(50% - 16px); }
+  .brand-index-clock ._clock-watch ._face ._txt { margin-top: 10px; font-size: 1.063rem; line-height: 20px; }
+  .brand-index-clock ._clock-watch ._face ._txt::before, .brand-index-clock ._clock-watch ._face ._txt::after { height: 20px; width: 2px; }
+  .brand-index-clock ._clock-watch ._face ._txt::before { margin-right: 6px; }
+  .brand-index-clock ._clock-watch ._face ._txt::after { margin-left: 6px; }
+  .brand-index-clock ._clock-watch ._face ._time { font-size: 54px; margin-top: 10px; }
+  /* .brand-index-clock-all { ._all-btn { @if $all { border-bottom: 1px #dfdfdf solid; } .mod-wrap { @if $all {margin-top: 0;margin-bottom: 0;} a { @if $all {display: block;text-align: center;} @if $pc {padding: 15px 0;} @if $sp {padding: 10px 0;} span { @if $all { display: inline-block;position: relative;font-weight: bold; color: $color-main; } @if $pc {padding-right: 30px;} @if $sp {padding-right: 24px;} &::before, &::after { @if $all { content: ""; display: block; position: absolute; top: 50%; background-color: $color-main; line-height: 0; font-size: 0; } } &::before { @if $all {right: 0;} @if $pc {width: 19px;height: 3px;margin-top: -2px;} @if $sp {width: 12px;height: 2px;margin-top: -1px;} } &::after { @if $pc {width: 3px;height: 19px;margin-top: -10px;right: 8px;} @if $sp {width: 2px;height: 12px;margin-top: -6px;right: 5px;} } } } } } &.is-active { .mod-wrap a span::after { @if $all {content: none;} } } ._list { @if $all {padding: 0;margin: 0;list-style: none;} li { @if $all {margin: 0;border-bottom: 1px #dfdfdf solid;} @if $pc {padding: 20px 0;position: relative;} @if $sp {padding: 15px 0;} ._time { @if $pc {font-size:$fs14;margin: 0;padding: 0;width: 100px;position: absolute;left: 0;top: 20px;} @if $sp {font-size:$fs13;margin: 0;padding: 0;} } ._txt { @if $all { margin: 0; a:hover{ text-decoration: underline; } } @if $pc {font-size:$fs14;padding: 0 0 0 115px;} @if $sp {font-size:$fs13;} } } } } */
+  .brand-index-mv { overflow: hidden; }
+  .brand-index-mv .slick-list { overflow: visible; }
+  .brand-index-mv ._btn-prev, .brand-index-mv ._btn-next { width: 16px; height: 60px; }
+  .brand-index-mv ._btn-prev a, .brand-index-mv ._btn-next a { width: 16px; height: 23px; margin-top: -12px; }
+  .brand-index-mv ._btn-prev a::before, .brand-index-mv ._btn-next a::before { font-size: 23px; }
+  .brand-index-mv ._btn-prev { margin-right: 23px; }
+  .brand-index-mv ._btn-next { margin-left: 23px; }
+  .brand-index-mv .slick-dots { height: 60px; padding-top: 22px; }
+  .brand-index-mv .slick-dots li { height: 16px; width: 16px; margin: 0 4px; }
+  .brand-index-mv .slick-dots li button { height: 12px; width: 12px; }
+  .brand-index-mv .slick-dots li button:before { height: 12px; width: 12px; line-height: 12px; }
+  .brand-index-mv ._items.slick-slider::before, .brand-index-mv ._items.slick-slider::after { content: ""; position: absolute; z-index: 1000; height: calc(100% - 60px); width: 2000px; top: 0; background-color: rgba(255, 255, 255, 0.4); }
+  .brand-index-mv ._items.slick-slider::before { right: 100%; }
+  .brand-index-mv ._items.slick-slider::after { left: 100%; }
+  .brand-index-mv ._items ._item a ._more { bottom: 25px; right: 18px; font-size: 1rem; line-height: 35px; padding: 0 20px; min-width: 100px; border-radius: 3px; }
+  .brand-index-mv ._items ._item a ._more::before { font-size: 0.875rem; top: 50%; left: 9px; margin-top: -7px; }
+  .brand-index-mv + .brand-common-section { margin-top: 30px; }
+  .brand-index-abouts-wapper { padding: 113px 0 30px; background-size: 100%; }
+  .brand-index-about h2 { margin-bottom: 40px; text-align: center; }
+  .brand-index-about ._item ._texts { padding: 20px; }
+  .brand-index-about ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-index-about ._item ._texts ._txt { font-size: 1rem; margin-top: 10px; }
+  .brand-index-kids ._item ._texts, .brand-index-campaign ._item ._texts { padding: 20px; }
+  .brand-index-kids ._item ._texts ._cap, .brand-index-campaign ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-index-kids ._item ._texts ._txt, .brand-index-campaign ._item ._texts ._txt { font-size: 1rem; margin-top: 10px; }
+  .brand-index-free { margin: 30px 0 30px; }
+  .brand-index-free-list { margin: 30px 0 30px; }
+  .brand-index-payment { padding: 60px 0 70px; }
+  .brand-index-payment h2 { font-size: 1.375rem; margin: 0 0 40px; }
+  .brand-index-payment ._items ._item ._item-inner { padding: 20px; }
+  .brand-index-payment ._items ._item ._image img { width: 80px; }
+  .brand-index-payment ._items ._item ._texts { flex: 5; padding-left: 20px; }
+  .brand-index-payment ._items ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-index-payment ._items ._item ._texts ._txt { font-size: 1rem; margin-top: 5px; }
+  .brand-index-information ._items li { padding: 20px 0; }
+  .brand-index-information ._items li ._date { margin: 0 0 10px; }
+  .brand-index-information ._items li ._label { margin-left: 10px; line-height: 1.625rem; border-width: 2px; font-size: 0.75rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / クーポントップ
+---------------------------------------------------------- */
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-mv { height: 580px; padding: 50px 0 0; }
+  .brand-coupon-index-mv ._inner { position: relative; min-height: 530px; }
+  .brand-coupon-index-mv ._cap { margin: 0 0 25px; padding-top: 50px; }
+  .brand-coupon-index-mv ._cap h2 { font-size: 2.625rem; }
+  .brand-coupon-index-mv ._img { position: absolute; right: 4px; bottom: 0; width: 350px; height: 550px; }
+  .brand-coupon-index-mv ._text { font-size: 0.875rem; padding: 0; width: 645px; }
+  .brand-coupon-index-mv ._row-dl h3 { font-size: 1.125rem; margin: 30px 0 10px 0; }
+  .brand-coupon-index-mv ._row-dl ._items ._item { width: 215px; margin: 0 0 0 10px; }
+  .brand-coupon-index-mv ._row-dl ._items ._item:first-child { margin-left: 0; }
+  .brand-coupon-index-mv ._row-dl ._dl-text { margin-top: 30px; font-size: 0.75rem; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-spec { padding: 50px 0 60px; }
+  .brand-coupon-index-spec h3 { margin: 0 0 55px; font-size: 1.5rem; }
+  .brand-coupon-index-spec ._items { display: flex; flex-wrap: wrap; padding: 0 0 30px; }
+  .brand-coupon-index-spec ._item { padding: 0 0 0 110px; min-height: 88px; width: calc(50% - 30px); }
+  .brand-coupon-index-spec ._item:nth-child(2n) { margin-left: 60px; }
+  .brand-coupon-index-spec ._item:nth-child(n+3) { margin-top: 50px; }
+  .brand-coupon-index-spec ._item ._icon { width: 88px; height: 88px; }
+  .brand-coupon-index-spec ._item ._icon:before, .brand-coupon-index-spec ._item ._icon:after { font-size: 50px; transform: translate(20px, 20px); }
+  .brand-coupon-index-spec ._item ._cap { font-size: 1.125rem; }
+  .brand-coupon-index-spec ._item ._text { font-size: 0.875rem; }
+  .brand-coupon-index-spec ._bottom { margin-top: 60px; font-size: 1.25rem; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-dl ._inner { padding: 55px 0 50px 0; }
+  .brand-coupon-index-dl ._inner::before { margin-left: -16px; border-width: 24px 16px 0 16px; }
+  .brand-coupon-index-dl h3 { font-size: 1.5rem; margin: 0 0 30px; }
+  .brand-coupon-index-dl ._items ._item { width: 215px; margin: 0 0 0 10px; }
+  .brand-coupon-index-dl ._items ._item:first-child { margin-left: 0; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-otpn { margin-top: 40px; }
+  .brand-coupon-index-otpn ._inner { font-size: 1rem; padding: 40px 0; }
+  .brand-coupon-index-otpn ._cap { font-size: 1.5rem; }
+  .brand-coupon-index-otpn ._img { width: 511px; height: 244px; position: absolute; bottom: 0; left: 45px; }
+  .brand-coupon-index-otpn ._texts { margin-left: 648px; width: 345px; }
+  .brand-coupon-index-otpn ._texts p + p { margin: 20px 0 0; }
+  /* delete class
+btn-icn-arw
+btn-blank
+*/
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / トップ
+---------------------------------------------------------- */
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-scroll-arrow { display: none; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-visuals ._item { margin-bottom: 10px; }
+  .brand-menu-index-visuals ._item ._visual:after { padding-top: 37%; }
+  .brand-menu-index-visuals ._item ._texts { height: 110px; }
+  .brand-menu-index-visuals ._item .mod-wrap { padding: 20px 0 28px 0; }
+  .brand-menu-index-visuals ._item ._cap { font-size: 1.5rem; }
+  .brand-menu-index-visuals ._item ._txt { font-size: 1rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-reccomends ._item ._texts { margin-top: 15px; }
+  .brand-menu-index-reccomends ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-menu-index-reccomends ._item ._texts ._txt { font-size: 1rem; margin-top: 10px; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-categorys h2 { margin-top: 40px; }
+  .brand-menu-index-categorys p._date { margin: 15px 0 15px 0; }
+  .brand-menu-index-categorys p._date span { padding: 10px 10px 10px 16px; font-size: 0.9375rem; }
+  .brand-menu-index-categorys ._item ._texts { margin-top: 10px; }
+  .brand-menu-index-categorys ._item ._texts ._cap { font-size: 1rem; }
+  .brand-menu-index-dbook ._items { display: flex; flex-wrap: wrap; margin: 0 0 0 -25px; }
+  .brand-menu-index-dbook ._items ._item { width: calc(50% - 25px); margin: 0 0 0 25px; }
+  .brand-menu-index-dbook ._items ._item::before, .brand-menu-index-dbook ._items ._item::after { content: ""; display: table; }
+  .brand-menu-index-dbook ._items ._item::after { clear: both; }
+  .brand-menu-index-dbook ._items ._item ._texts { width: 345px; }
+  .brand-menu-index-dbook ._items ._item ._texts ._data { margin-top: 15px; }
+  .brand-menu-index-dbook ._items ._item ._texts ._notes { margin-top: 15px; font-size: 0.75rem; }
+  .brand-menu-index-dbook .wrap > ._notes { margin-top: 30px; }
+  .brand-menu-index-dbook .wrap > ._notes .txt-note { margin: 10px 0 0 0; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / カテゴリ
+---------------------------------------------------------- */
+  .brand-menu-category-title { padding: 35px 0 0 0; margin: 0 0 35px 0; }
+  .brand-menu-category-title h1 { padding: 2px 0 1px 14px; font-size: 1.5rem; }
+  .brand-menu-category-title ._date { display: inline-block; font-size: 1rem; transform: translate(5px, -5px); }
+  /* ---------- ---------- ---------- */
+  .brand-menu-category-list .mod-grid03 { margin-bottom: 20px; }
+  .brand-menu-category-list ._item ._texts { padding: 15px 20px 15px 20px; }
+  .brand-menu-category-list ._item ._texts ._cap { font-size: 1.125rem; }
+  .brand-menu-category-list ._item ._texts ._price  { font-size: 1rem; }
+  .brand-menu-category-list ._item ._texts ._price span { font-size: 1rem; }
+  .brand-menu-category-list ._item ._texts ._labes { font-size: 0.75rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / 詳細
+---------------------------------------------------------- */
+  .brand-menu-detail-cover { padding-top: 40px; }
+  .brand-menu-detail-cover ._inner { display: flex; }
+  .brand-menu-detail-cover ._image { width: 600px; min-height: 449px; }
+  .brand-menu-detail-cover ._texts { width: 456px; }
+  .brand-menu-detail-cover ._date span { font-size: 0.75rem; font-weight: normal; }
+  .brand-menu-detail-cover ._texts-inner { padding: 60px 50px 0 50px; }
+  .brand-menu-detail-cover ._cate { font-size: 1.125rem; padding: 0 0 10px 0; }
+  .brand-menu-detail-cover ._name { margin-top: 20px; font-size: 1.5rem; }
+  .brand-menu-detail-cover ._labes { margin: 20px 0; font-size: 0.75rem; }
+  .brand-menu-detail-cover ._labes ._new, .brand-menu-detail-cover ._labes ._fair, .brand-menu-detail-cover ._labes ._limit, .brand-menu-detail-cover ._labes ._takeout { padding: 7px; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-spec ._inner { display: flex; }
+  .brand-menu-detail-spec ._valiations { width: 330px; }
+  .brand-menu-detail-spec ._valiations ._item ._price { font-size: 1.375rem; }
+  .brand-menu-detail-spec ._valiations ._item ._price span { font-size: 1.375rem; }
+  .brand-menu-detail-spec ._description { width: 700px; margin: 0 0 0 25px; }
+  /* ---------- ---------- ---------- */
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-recommends ._item { padding: 20px; }
+  .brand-menu-detail-recommends ._item ._image { width: 120px; }
+  .brand-menu-detail-recommends ._item ._texts { width: 330px; margin: 0 0 0 20px; }
+  .brand-menu-detail-recommends ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-menu-detail-recommends ._item ._texts ._name { font-size: 1rem; }
+  .brand-menu-detail-recommends ._item ._texts ._price { font-size:1rem; }
+  .brand-menu-detail-recommends ._item ._texts ._price span { font-size: 1rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-popular ._item ._texts { margin-top: 15px; }
+  .brand-menu-detail-popular ._item ._texts ._cap { font-size: 1.125rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / ランキング
+---------------------------------------------------------- */
+  .brand-menu-ranking-title { padding: 35px 0 0 0; margin: 0 0 35px 0; }
+  .brand-menu-ranking-title h1 { padding: 2px 0 1px 14px; font-size: 1.625rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-ranking-main ._items { list-style: none; margin: 0; padding: 0; }
+  .brand-menu-ranking-main ._item { padding: 50px 0; border-bottom: 1px solid #dadada; }
+  .brand-menu-ranking-main ._item:nth-child(1) { padding: 0 0 50px 0; }
+  .brand-menu-ranking-main ._item-inner { display: flex; }
+  .brand-menu-ranking-main ._texts-inner { padding: 0 0 0 15px; }
+  .brand-menu-ranking-main ._image { width: 600px; }
+  .brand-menu-ranking-main ._image svg { width: 130px; height: 130px; }
+  .brand-menu-ranking-main ._image ._no { top: 15px; width: 80px; font-size: 1.875rem; }
+  .brand-menu-ranking-main ._image ._no span { font-size: 1.375rem; }
+  .brand-menu-ranking-main ._texts { flex: 1; padding: 0 0 0 40px; }
+  .brand-menu-ranking-main ._texts ._cap { font-size: 1.5rem; margin: 0; }
+  .brand-menu-ranking-main ._texts ._price { font-size: 1rem; margin: 10px 0 0 0; }
+  .brand-menu-ranking-main ._texts ._price span { font-size: 1rem; }
+  .brand-menu-ranking-main ._texts ._labes { font-size: 0.75rem; margin: 10px 0 0 0; } }
+
+@media (max-width: 767px) { /* ----------------------------------------------------------
+ブランド個別ページブロック / トップ
+---------------------------------------------------------- */
+  .brand-index-subtitle h2 { margin: 30px 0 15px 0; text-align: center; }
+  .brand-index-subtitle h2 span._en { display: inline-block; position: relative; margin-right: 10px; padding-right: 10px; padding-left: 35px; font-size: 1.5rem; }
+  .brand-index-subtitle h2 span._en:before { font-size: 30px; transform: translate(0, -3px); }
+  .brand-index-subtitle h2._title-news span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-campain span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-kids span._en:before { content: ""; }
+  .brand-index-subtitle h2._title-free span._en:before { font-size: 1.5rem; top: 2px; }
+  .brand-index-subtitle h2 span._ja { margin-top: 5px; display: block; font-size: 1.125rem; }
+  .brand-index-clock { height: 197px; }
+  .brand-index-clock .top-clock-wrap { height: 197px; }
+  .brand-index-clock ._clock-dial { width: 250px; height: 250px; top: -33px; left: 50%; margin-left: -20px; }
+  .brand-index-clock ._clock-dial::after { top: 33px; height: 250px; }
+  .brand-index-clock ._clock-dial ._circle { width: 250px; height: 250px; border-width: 4px; }
+  .brand-index-clock ._clock-dial ._item { width: 34px; height: 34px; top: 108px; left: 108px; }
+  .brand-index-clock ._clock-dial ._item ._balloon { color: #fff; padding: 8px 7px; border-radius: 4px; width: 110px; height: 60px; position: absolute; right: 100%; margin-right: 10px; top: -12px; opacity: 0.79; display: flex; flex-direction: column; justify-content: center; }
+  .brand-index-clock ._clock-dial ._item ._balloon::before { content: ""; display: block; position: absolute; left: 100%; top: 50%; margin-top: -3px; width: 0; height: 0; border-style: solid; border-width: 3px 0 3px 6px; }
+  .brand-index-clock ._clock-dial ._item ._time { font-size: 1rem; line-height: 1.2rem; }
+  .brand-index-clock ._clock-dial ._item ._txt { font-size: 0.571rem; line-height: 1.3; }
+  .brand-index-clock ._clock-dial ._item.is-focus ._balloon { background-color: #ff7200; animation-name: none; color: #fff; width: 110px; height: 80px; top: -25px; }
+  .brand-index-clock ._clock-dial ._item.is-focus ._balloon::before { border-color: transparent transparent transparent #ff7200; }
+  .brand-index-clock ._clock-dial ._item.is-focus ._txt { font-size: 11px; }
+  .brand-index-clock ._clock-img { width: 141px; height: 141px; top: 29px; left: 50%; margin-left: 8px; }
+  .brand-index-clock ._clock-watch { top: 96px; left: 50%; margin-left: 60px; width: 95px; height: 95px; padding: 4px 0 0 4px; }
+  .brand-index-clock ._clock-watch ._face { width: 87px; height: 87px; }
+  .brand-index-clock ._clock-watch ._face ._name { font-size: 0.571rem; padding-bottom: 5px; }
+  .brand-index-clock ._clock-watch ._face ._name::after { width: 20px; border-bottom-width: 1px; left: calc(50% - 10px); }
+  .brand-index-clock ._clock-watch ._face ._txt { margin-top: 5px; font-size: 0.6rem; transform: scale(0.7, 0.7); white-space: nowrap; width: 87px; margin-left: -2px; }
+  .brand-index-clock ._clock-watch ._face ._txt::before, .brand-index-clock ._clock-watch ._face ._txt::after { height: 8px; width: 1px; }
+  .brand-index-clock ._clock-watch ._face ._txt::before { margin-right: 3px; }
+  .brand-index-clock ._clock-watch ._face ._txt::after { margin-left: 3px; }
+  .brand-index-clock ._clock-watch ._face ._time { font-size: 1.44rem; margin-top: 5px; }
+  @keyframes clockAnime-item4 { 0% { top: -5px; }
+    100% { top: -12px; } }
+  @keyframes clockAnime-item3 { 0% { top: -12px; }
+    100% { top: -20px; } }
+  /* .brand-index-clock-all { ._all-btn { @if $all { border-bottom: 1px #dfdfdf solid; } .mod-wrap { @if $all {margin-top: 0;margin-bottom: 0;} a { @if $all {display: block;text-align: center;} @if $pc {padding: 15px 0;} @if $sp {padding: 10px 0;} span { @if $all { display: inline-block;position: relative;font-weight: bold; color: $color-main; } @if $pc {padding-right: 30px;} @if $sp {padding-right: 24px;} &::before, &::after { @if $all { content: ""; display: block; position: absolute; top: 50%; background-color: $color-main; line-height: 0; font-size: 0; } } &::before { @if $all {right: 0;} @if $pc {width: 19px;height: 3px;margin-top: -2px;} @if $sp {width: 12px;height: 2px;margin-top: -1px;} } &::after { @if $pc {width: 3px;height: 19px;margin-top: -10px;right: 8px;} @if $sp {width: 2px;height: 12px;margin-top: -6px;right: 5px;} } } } } } &.is-active { .mod-wrap a span::after { @if $all {content: none;} } } ._list { @if $all {padding: 0;margin: 0;list-style: none;} li { @if $all {margin: 0;border-bottom: 1px #dfdfdf solid;} @if $pc {padding: 20px 0;position: relative;} @if $sp {padding: 15px 0;} ._time { @if $pc {font-size:$fs14;margin: 0;padding: 0;width: 100px;position: absolute;left: 0;top: 20px;} @if $sp {font-size:$fs13;margin: 0;padding: 0;} } ._txt { @if $all { margin: 0; a:hover{ text-decoration: underline; } } @if $pc {font-size:$fs14;padding: 0 0 0 115px;} @if $sp {font-size:$fs13;} } } } } */
+  .brand-index-mv .slick-list { overflow: hidden; }
+  .brand-index-mv ._btn-prev, .brand-index-mv ._btn-next { width: 8px; height: 30px; }
+  .brand-index-mv ._btn-prev a, .brand-index-mv ._btn-next a { width: 8px; height: 13px; margin-top: -7px; }
+  .brand-index-mv ._btn-prev a::before, .brand-index-mv ._btn-next a::before { font-size: 13px; }
+  .brand-index-mv ._btn-prev { margin-right: 15px; }
+  .brand-index-mv ._btn-next { margin-left: 15px; }
+  .brand-index-mv .slick-dots { height: 30px; padding-top: 10px; }
+  .brand-index-mv .slick-dots li { height: 10px; width: 10px; margin: 0 5px; }
+  .brand-index-mv .slick-dots li button { height: 8px; width: 8px; }
+  .brand-index-mv .slick-dots li button:before { height: 8px; width: 8px; line-height: 8px; }
+  .brand-index-mv ._items ._item a ._more { bottom: 7px; right: 12px; font-size: 0.643rem; line-height: 22px; padding: 0 10px; min-width: 60px; border-radius: 3px; }
+  .brand-index-mv ._items ._item a ._more::before { font-size: 0.857rem; top: 50%; left: 5px; margin-top: -5px; }
+  .brand-index-mv + .brand-common-section { margin-top: 15px; }
+  .brand-index-mv + .brand-common-section > p { margin-top: 0; }
+  .brand-index-abouts-wapper { padding: 37px 0 25px; background-size: 130% auto; }
+  .brand-index-about h2 { width: 85.3%; margin-bottom: 22px; }
+  .brand-index-about h2 img { width: 100%; }
+  .brand-index-about ._item ._texts { padding: 10px; }
+  .brand-index-about ._item ._texts ._cap { font-size: 0.8125rem; }
+  .brand-index-about ._item ._texts ._txt { font-size: 0.75rem; margin-top: 2px; }
+  .brand-index-kids ._item ._texts, .brand-index-campaign ._item ._texts { padding: 10px; }
+  .brand-index-kids ._item ._texts ._cap, .brand-index-campaign ._item ._texts ._cap { font-size: 0.8125rem; }
+  .brand-index-kids ._item ._texts ._txt, .brand-index-campaign ._item ._texts ._txt { font-size: 0.75rem; margin-top: 2px; }
+  .brand-index-free { margin: 15px 0 15px; }
+  .brand-index-free-list { margin: 15px 0 15px; }
+  .brand-index-payment { padding: 25px 0 35px; }
+  .brand-index-payment h2 { font-size: 1rem; margin: 0 0 22px; }
+  .brand-index-payment ._items ._item ._item-inner { padding: 10px; }
+  .brand-index-payment ._items ._item ._image img { width: 80px; }
+  .brand-index-payment ._items ._item ._texts { flex: 4; padding-left: 10px; }
+  .brand-index-payment ._items ._item ._texts ._cap { font-size: 0.875rem; }
+  .brand-index-payment ._items ._item ._texts ._txt { font-size: 0.75rem; margin-top: 2px; }
+  .brand-index-information ._items li { padding: 15px 0; }
+  .brand-index-information ._items li ._label { margin-left: 7px; line-height: 1.563rem; border-width: 1px; font-size: 0.857rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / クーポントップ
+---------------------------------------------------------- */
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-mv { padding: 20px 0 0; }
+  .brand-coupon-index-mv ._cap { margin: 0 0 20px; }
+  .brand-coupon-index-mv ._cap h2 { font-size: 1.25rem; }
+  .brand-coupon-index-mv ._img { margin: 0 auto; width: 170px; height: 220px; overflow: hidden; background-position: center top; background-size: 170px 280px; }
+  .brand-coupon-index-mv ._text { font-size: 0.875rem; background-color: #fff; padding: 18px 15px; margin-right: -15px; margin-left: -15px; }
+  .brand-coupon-index-mv ._row-dl { display: none; }
+  .brand-coupon-index-mv ._row-dl ._items ._item { width: 142px; }
+  .brand-coupon-index-mv ._row-dl ._items ._item:nth-child(even) { margin-left: 6px; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-spec { padding: 25px 0; }
+  .brand-coupon-index-spec h3 { margin: 0 0 20px; font-size: 1.25rem; }
+  .brand-coupon-index-spec ._items { padding: 0; }
+  .brand-coupon-index-spec ._item { padding: 0 0 0 60px; margin-top: 25px; min-height: 52px; }
+  .brand-coupon-index-spec ._item ._icon { width: 50px; height: 50px; }
+  .brand-coupon-index-spec ._item ._icon:before, .brand-coupon-index-spec ._item ._icon:after { font-size: 30px; transform: translate(10px, 10px); }
+  .brand-coupon-index-spec ._item ._cap { font-size: 0.875rem; }
+  .brand-coupon-index-spec ._item ._text { font-size: 0.75rem; }
+  .brand-coupon-index-spec ._bottom { margin-top: 30px; font-size: 1rem; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-dl ._inner { padding: 25px 0 30px 0; }
+  .brand-coupon-index-dl ._inner::before { margin-left: -8.5px; border-width: 13px 8px 0 8.5px; }
+  .brand-coupon-index-dl h3 { font-size: 1rem; margin: 0 0 15px; }
+  .brand-coupon-index-dl ._items ._item { width: 142px; }
+  .brand-coupon-index-dl ._items ._item:nth-child(even) { margin-left: 6px; }
+  .brand-coupon-index-dl ._dl-text { padding: 0 20px; font-size: 0.75rem; }
+  /* ---------- ---------- ---------- */
+  .brand-coupon-index-otpn { margin-top: 20px; }
+  .brand-coupon-index-otpn ._inner { font-size: 0.875rem; padding: 20px 15px 25px; }
+  .brand-coupon-index-otpn ._cap { font-size: 1.125rem; }
+  .brand-coupon-index-otpn ._texts { margin-top: 15px; }
+  .brand-coupon-index-otpn ._texts p + p { margin: 10px 0 0; }
+  /* delete class
+btn-icn-arw
+btn-blank
+*/
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / トップ
+---------------------------------------------------------- */
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-scroll-arrow { display: block; }
+  .page-brand-menu-index.is-arrowFixedBottom .brand-menu-index-scroll-arrow { bottom: 0 !important; }
+
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-visuals ._item ._visual { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 115px; background-position: center center; background-size: cover; }
+  .brand-menu-index-visuals ._item ._texts { height: 70px; position: absolute; left: 0px; right: 0px; bottom: 45px; }
+  .brand-menu-index-visuals ._item ._texts:before { content: ""; display: block; position: absolute; top: 0px; right: 0px; width: 30px; bottom: 0px; background: #ff7200; }
+  .brand-menu-index-visuals ._item ._texts:after { display: block; position: absolute; top: 40%; right: 0px; font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; display: inline-block; font-size: 1.25rem; margin-right: 10px; color: #ff0; vertical-align: middle; }
+  .brand-menu-index-visuals ._item .mod-wrap { padding: 10px 0 0 10px; }
+  .brand-menu-index-visuals ._item ._cap { font-size: 0.9375rem; }
+  .brand-menu-index-visuals ._item ._txt { font-size: 0.75rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-reccomends ._item ._texts { margin-top: 10px; }
+  .brand-menu-index-reccomends ._item ._texts ._cap { font-size: 0.875rem; }
+  .brand-menu-index-reccomends ._item ._texts ._txt { font-size: 0.75rem; margin-top: 2px; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-index-categorys h2 { margin-top: 20px; font-size: 1.125rem; }
+  .brand-menu-index-categorys p._date { margin: 10px 0 10px 0; }
+  .brand-menu-index-categorys p._date span { padding: 8px 6px 8px 10px; font-size: 0.8125rem; }
+  .brand-menu-index-categorys ._item ._texts { margin-top: 5px; }
+  .brand-menu-index-categorys ._item ._texts ._cap { font-size: 0.8125rem; }
+  .brand-menu-index-dbook ._items { margin: 0; }
+  .brand-menu-index-dbook ._items ._item { padding: 0 0 15px 0; }
+  .brand-menu-index-dbook ._items ._item::before, .brand-menu-index-dbook ._items ._item::after { content: ""; display: table; }
+  .brand-menu-index-dbook ._items ._item::after { clear: both; }
+  .brand-menu-index-dbook ._items ._item ._image { width: 30%; }
+  .brand-menu-index-dbook ._items ._item ._texts { width: 70%; padding: 0 0 0 10px; }
+  .brand-menu-index-dbook ._items ._item ._texts ._data { margin-top: 10px; }
+  .brand-menu-index-dbook ._items ._item ._texts ._notes { margin-top: 10px; font-size: 0.75rem; }
+  .brand-menu-index-dbook .wrap > ._notes { margin-top: 10px; font-size: 0.75rem; }
+  .brand-menu-index-dbook .wrap > ._notes .txt-note { margin: 5px 0 0 0; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / カテゴリ
+---------------------------------------------------------- */
+  .brand-menu-category-title { padding: 20px 0 0 0; margin: 0 0 20px 0; }
+  .brand-menu-category-title h1 { padding: 1px 0 1px 7px; font-size: 1.25rem; }
+  .brand-menu-category-title ._date { display: block; margin-top: 10px; font-size: 0.875rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-category-list .mod-grid03 { margin-bottom: 20px; }
+  .brand-menu-category-list ._item ._texts { padding: 10px; }
+  .brand-menu-category-list ._item ._texts ._cap { font-size: 0.875rem; }
+  .brand-menu-category-list ._item ._texts ._price  { font-size: 1rem; }
+  .brand-menu-category-list ._item ._texts ._price span { font-size: 1rem; }
+  .brand-menu-category-list ._item ._texts ._labes { font-size: 0.75rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / 詳細
+---------------------------------------------------------- */
+  .brand-menu-detail-cover { padding-top: 20px; }
+  .brand-menu-detail-cover ._image { min-height: 200px; }
+  .brand-menu-detail-cover ._date span { font-size: 0.625rem; font-weight: normal; display: block; }
+  .brand-menu-detail-cover ._texts-inner { padding: 15px; }
+  .brand-menu-detail-cover ._cate { font-size: 0.875rem; padding: 0 0 5px 0; }
+  .brand-menu-detail-cover ._name { margin-top: 15px; font-size: 1rem; }
+  .brand-menu-detail-cover ._labes { margin: 10px 0; font-size: 0.6875rem; }
+  .brand-menu-detail-cover ._labes ._new, .brand-menu-detail-cover ._labes ._fair, .brand-menu-detail-cover ._labes ._limit, .brand-menu-detail-cover ._labes ._takeout { padding: 7px 4px; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-spec ._valiations ._item ._price { font-size: 1.25rem; }
+  .brand-menu-detail-spec ._valiations ._item ._price span { font-size: 1.25rem; }
+  .brand-menu-detail-spec ._description { font-size: 0.875rem; }
+  /* ---------- ---------- ---------- */
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-recommends ._item { padding: 10px; }
+  .brand-menu-detail-recommends ._item ._image { width: 30%; }
+  .brand-menu-detail-recommends ._item ._texts { width: 66%; margin: 0 0 0 4%; }
+  .brand-menu-detail-recommends ._item ._texts ._cap { font-size: 0.875rem; }
+  .brand-menu-detail-recommends ._item ._texts ._name { font-size: 0.75rem; }
+  .brand-menu-detail-recommends ._item ._texts ._price { font-size: 0.875rem; }
+  .brand-menu-detail-recommends ._item ._texts ._price span { font-size: 0.875rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-detail-popular ._item ._texts { margin-top: 10px; }
+  .brand-menu-detail-popular ._item ._texts ._cap { font-size: 0.75rem; }
+  /* ----------------------------------------------------------
+ブランド個別ページブロック / メニュー / ランキング
+---------------------------------------------------------- */
+  .brand-menu-ranking-title { padding: 20px 0 0 0; margin: 0 0 20px 0; }
+  .brand-menu-ranking-title h1 { padding: 1px 0 1px 7px; font-size: 1.25rem; }
+  /* ---------- ---------- ---------- */
+  .brand-menu-ranking-main ._items { list-style: none; margin: 0; padding: 0; }
+  .brand-menu-ranking-main ._item { padding: 20px 0; border-bottom: 2px solid #dadada; }
+  .brand-menu-ranking-main ._item:nth-child(1) { padding: 0 0 20px 0; }
+  .brand-menu-ranking-main ._texts-inner { padding: 0 0 0 15px; }
+  .brand-menu-ranking-main ._image { min-height: 200px; }
+  .brand-menu-ranking-main ._image svg { width: 65px; height: 65px; }
+  .brand-menu-ranking-main ._image ._no { top: 5px; width: 40px; font-size: 1rem; }
+  .brand-menu-ranking-main ._image ._no span { font-size: 0.75rem; }
+  .brand-menu-ranking-main ._texts { padding: 10px 0 0 0; }
+  .brand-menu-ranking-main ._texts ._cap { font-size: 0.875rem; }
+  .brand-menu-ranking-main ._texts ._price { font-size: 0.875rem; margin: 0; }
+  .brand-menu-ranking-main ._texts ._price span { font-size: 0.875rem; }
+  .brand-menu-ranking-main ._texts ._labes { font-size: 0.75rem; } }

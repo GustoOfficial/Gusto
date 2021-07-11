@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------
+ブランドページ共通ブロック
+---------------------------------------------------------- */
+/* ----------------------------------------------------------
+ブランドページブロック / 共通ブロック
+---------------------------------------------------------- */
+.common-emergency { background: #fff; color: red; }
+
+.common-emergency a { color: red; }
+
+.common-emergency a:hover { text-decoration: underline; }
+
+.common-emergency a::before { font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; color: red; position: absolute; top: 7px; left: 0px; }
+
+.common-emergency dl { margin: 0; }
+
+.common-emergency dl + dl { margin-top: 10px; }
+
+.common-emergency dl dt { padding-left: 12px; }
+
+.common-emergency dl dd { margin: 0; padding-left: 12px; position: relative; font-weight: bold; line-height: 1.8; }
+
+.brand-common-title { border-bottom: 1px #ececec solid; padding: 18px 0; }
+
+.brand-common-title .mod-wrap { position: relative; }
+
+.brand-common-title ._title h1 { position: relative; margin: 0; line-height: 1; }
+
+.brand-common-title ._title h1 span._en { vertical-align: middle; color: #ff7200; border-right: 1px #ddd solid; }
+
+.brand-common-title ._title h1 span._en:before { font-family: 'skylark'; line-height: 1; font-weight: normal; -webkit-font-smoothing: antialiased; content: ""; position: absolute; top: 0px; left: 0px; display: block; content: ""; margin-right: 5px; vertical-align: middle; }
+
+.brand-common-title ._title h1 span._ja { font-size: 1.375rem; }
+
+.brand-common-title ._title._title-menu h1 span._en:before { content: ""; }
+
+.brand-common-title ._title._title-coupon h1 span._en:before { content: ""; }
+
+.brand-common-title ._skip { position: absolute; top: 0px; right: 0px; }
+
+.brand-common-title ._skip a { display: block; }
+
+.brand-common-title ._skip a:before { font-family: 'skylark'; line-height: 1; font-weight: normal; -webkit-font-smoothing: antialiased; content: ""; display: inline-block; content: ""; font-size: 20px; vertical-align: middle; }
+
+.brand-common-title ._links ul { margin: 0; }
+
+.brand-common-title ._links li { font-size: 13px; font-weight: bold; display: inline-block; margin: 0 0 0 15px; padding: 0 0 0 10px; border-left: 1px solid #ddd; }
+
+.brand-common-title ._links li:first-child { border: none; }
+
+/* ---------- ---------- ---------- */
+.brand-common-section .brand-common-title { border-bottom: 2px solid #ff7200; }
+
+.brand-common-section .brand-common-title h2 { margin: 0; padding: 0; color: #ff7200; }
+
+/* ---------- ---------- ---------- */
+.brand-common-recents ._title { background: red; text-align: center; position: relative; }
+
+.brand-common-recents ._title:before { content: ""; position: absolute; bottom: -24px; left: 50%; width: 12px; height: 12px; box-sizing: border-box; border: 12px solid transparent; border-top: 12px solid red; transform: translate(-12px, 0px) scale(0.8, 1); }
+
+.brand-common-recents ._title h2 { margin: 0; }
+
+.brand-common-recents ul { list-style: none; padding: 0; margin: 0; }
+
+.brand-common-recents ._items { display: flex; flex-wrap: wrap; }
+
+.brand-common-recents ._items ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-common-recents ._items ._item p { margin: 5px 0; }
+
+.brand-common-recents ._items ._item a { display: block; }
+
+.brand-common-recents ._items ._item ._texts ._cap { margin: 0; }
+
+/* ---------- ---------- ---------- */
+.brand-common-recents .slick-prev, .brand-common-recents .slick-next { display: inline-block; font-size: 0; line-height: 0; padding: 0; cursor: pointer; color: transparent; border: none; outline: none; background: transparent; transform: rotate(45deg); vertical-align: baseline; margin: 0 20px; border-top: 3px solid #ff7200; border-right: 3px solid #ff7200; }
+
+.brand-common-recents .slick-prev { transform: rotate(-135deg); }
+
+.brand-common-recents .slick-dots { display: block; text-align: center; padding: 5px 5px 5px 25px; width: 100%; }
+
+.brand-common-recents .slick-dots li { display: inline-block; background: #ddd; margin: 0 6px; border-radius: 50%; }
+
+.brand-common-recents .slick-dots li button { display: none; }
+
+.brand-common-recents .slick-dots li.slick-active { background: #ff7200; }
+
+/* ---------- ---------- ---------- */
+.brand-common-reccomends ._title { background: red; padding: 16px; text-align: center; position: relative; }
+
+.brand-common-reccomends ._title:before { content: ""; position: absolute; bottom: -24px; left: 50%; width: 12px; height: 12px; box-sizing: border-box; border: 12px solid transparent; border-top: 12px solid red; transform: translate(-12px, 0px) scale(0.8, 1); }
+
+.brand-common-reccomends ._title h2 { margin: 0; }
+
+.brand-common-reccomends ._item img { width: 100%; outline: 1px solid #d8d8d8; }
+
+.brand-common-reccomends ._item p { margin: 5px 0; }
+
+.brand-common-reccomends ._item a { display: block; }
+
+.brand-common-reccomends ._item ._texts ._txt { color: #000; }
+
+/* ----------------------------------------------------------
+ブランドページブロック / wisywigと汎用ブロック
+---------------------------------------------------------- */
+.brand-common-wisywig h1, h1.mod-heading { margin: 25px auto; border-left: 6px solid #ff7200; line-height: 1; padding: 2px 0 2px 15px; }
+
+.brand-common-wisywig h2, h2.mod-heading { margin: 1.5em 0 1em 0; color: #ff7200; border-bottom: 2px solid #ff7200; }
+
+.brand-common-wisywig h2.mod-fill, h2.mod-heading.mod-fill { border-bottom: none; background: #ff7200; color: #fff; position: relative; padding-left: 30px; }
+
+.brand-common-wisywig h2.mod-fill:after, h2.mod-heading.mod-fill:after { content: ""; display: block; position: absolute; top: 19px; bottom: 19px; left: 15px; width: 3px; background: #ffff00; }
+
+.brand-common-wisywig h3, h3.mod-heading { margin: 1.5em 0 1em 0; color: #ff7200; padding: 10px 0; border-bottom: 1px solid #ff7200; }
+
+.brand-common-wisywig h4, h4.mod-heading { margin-top: 1em 0 0.75em 0; padding: 10px 0; border-bottom: 1px solid #dadada; }
+
+.brand-common-wisywig h5, h5.mod-heading { margin-top: 1em 0 0.5em 0; }
+
+/* ---------- ---------- ---------- */
+.brand-common-wisywig { margin: 0 auto; }
+
+.brand-common-wisywig a { color: #ff7200; }
+
+.brand-common-wisywig ol { margin: 1em 0; padding: 0 0 0 1em; }
+
+.brand-common-wisywig ul { margin: 1em 0; padding: 0 0 0 1em; }
+
+.brand-common-wisywig ul.mod-list-notes li { color: #888; font-size: 0.75rem; }
+
+.brand-common-wisywig ul.mod-list-anno li { color: red; font-size: 0.875rem; }
+
+.brand-common-wisywig li { margin: 1em 0 1em 0; }
+
+.brand-common-wisywig p a[target=_blank]::after { font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; content: "\f08e"; margin-left: 5px; font-size: 90%; }
+
+figure { margin: 0; }
+
+figcaption { color: #888; }
+
+.brand-common-wisywig table, table.mod-table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+
+.brand-common-wisywig table th, table.mod-table th { text-align: left; background: #faf7ea; }
+
+.brand-common-wisywig table th:last-child, table.mod-table th:last-child { border-right: none; }
+
+.brand-common-wisywig table td:last-child, table.mod-table td:last-child { border-right: none; }
+
+.mod-link-pagelink { list-style: none; margin: 1em 0; padding: 0; }
+
+.mod-link-pagelink a { margin: 0 5px; border-right: 1px solid #dadada; font-size: 0.875rem; }
+
+.mod-link-pagelink a::before { font-family: 'skylark'; line-height: 1; font-weight: normal; -webkit-font-smoothing: antialiased; content: ""; content: ""; display: inline-block; font-size: 18px; margin: 0 5px 0 0; }
+
+/* .mod-table-solid{ overflow: hidden; > table{ transform-origin :left top; } table { @if $sp { } th{ @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } td { @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } } } */
+.brand-common-wisywig .mod-grid02, .brand-common-wisywig .mod-grid03, .brand-common-wisywig .mod-grid04, .brand-common-wisywig .mod-grid06 { margin-top: 33px; }
+
+.brand-common-wisywig .mod-grid02:first-child, .brand-common-wisywig .mod-grid03:first-child, .brand-common-wisywig .mod-grid04:first-child, .brand-common-wisywig .mod-grid06:first-child { margin-top: 0; }
+
+.brand-common-wisywig h1 + .mod-grid02, .brand-common-wisywig h1 + .mod-grid03, .brand-common-wisywig h1 + .mod-grid04, .brand-common-wisywig h1 + .mod-grid06 { margin-top: 47px; }
+
+.brand-common-wisywig h2 + .mod-grid02, .brand-common-wisywig h2 + .mod-grid03, .brand-common-wisywig h2 + .mod-grid04, .brand-common-wisywig h2 + .mod-grid06 { margin-top: 21px; }
+
+.brand-common-wisywig h3 + .mod-grid02, .brand-common-wisywig h3 + .mod-grid03, .brand-common-wisywig h3 + .mod-grid04, .brand-common-wisywig h3 + .mod-grid06 { margin-top: 13px; }
+
+.brand-common-wisywig h4 + .mod-grid02, .brand-common-wisywig h4 + .mod-grid03, .brand-common-wisywig h4 + .mod-grid04, .brand-common-wisywig h4 + .mod-grid06 { margin-top: 13px; }
+
+.brand-common-wisywig .mod-grid02.mod-margin-top-76, .brand-common-wisywig .mod-grid03.mod-margin-top-76, .brand-common-wisywig .mod-grid04.mod-margin-top-76, .brand-common-wisywig .mod-grid06.mod-margin-top-76 { margin-top: 70px !important; }
+
+.brand-common-wisywig .mod-grid02.mod-margin-top-48, .brand-common-wisywig .mod-grid03.mod-margin-top-48, .brand-common-wisywig .mod-grid04.mod-margin-top-48, .brand-common-wisywig .mod-grid06.mod-margin-top-48 { margin-top: 42px !important; }
+
+@media (min-width: 768px), print { /* ----------------------------------------------------------
+ブランドページブロック / 共通ブロック
+---------------------------------------------------------- */
+  .common-emergency { border: 6px solid red; margin: 20px 0; padding: 20px; font-size: 1.25rem; }
+  .brand-common-title ._title h1 span._en { margin-right: 10px; padding-right: 20px; padding-left: 45px; font-size: 2rem; }
+  .brand-common-title ._title h1 span._en:before { font-size: 40px; transform: translate(0, -2px); }
+  .brand-common-title ._skip { display: none; }
+  .brand-common-title ._links { position: absolute; top: 7px; right: 0px; }
+  .brand-common-title ._links ul { margin: 0; }
+  .brand-common-title ._links li { font-size: 13px; font-weight: bold; display: inline-block; margin: 0 0 0 15px; padding: 0 0 0 10px; border-left: 1px solid #ddd; }
+  .brand-common-title ._links li:first-child { border: none; }
+  .brand-common-title ._links li a::before { font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; display: inline-block; margin-right: 7px; color: #ff7200; vertical-align: middle; font-size: 16px; }
+  .brand-common-title ._links li a[target=_blank]::after { font-family: FontAwesome; line-height: 1; font-weight: normal; content: "\f0da"; content: "\f08e"; color: #ff7200; margin-left: 5px; font-size: 90%; }
+  .brand-common-section { margin: 60px 0 30px 0; }
+  .brand-common-title + .brand-common-section { margin: 50px 0 30px 0; }
+  /* ---------- ---------- ---------- */
+  .brand-common-section .brand-common-title { padding: 0 0 15px 0; margin: 20px 0; }
+  .brand-common-section .brand-common-title h2 { font-size: 1.375rem; }
+  /* ---------- ---------- ---------- */
+  .brand-common-recents ._title { padding: 16px; }
+  .brand-common-recents ._title h2 { font-size: 1.25rem; }
+  .brand-common-recents ._inner { margin: 50px 0 0 -16px; }
+  .brand-common-recents ._items ._item { width: 118px; margin: 0 0 0 16.2px; padding: 1px 0 0 0; }
+  .brand-common-recents ._items ._item ._texts { margin-top: 10px; }
+  .brand-common-recents ._items ._item ._texts ._cap { font-size: 0.875rem; }
+  /* ---------- ---------- ---------- */
+  .brand-common-recents .slick-prev, .brand-common-recents .slick-next { width: 15px; height: 15px; }
+  .brand-common-recents .slick-prev.slick-disabled, .brand-common-recents .slick-next.slick-disabled { border-top: 3px solid #eee; border-right: 3px solid #eee; }
+  .brand-common-recents .slick-dots { margin-top: 20px; }
+  .brand-common-recents .slick-dots li { width: 14px; height: 14px; transform: translate(0, 6px); }
+  /* ---------- ---------- ---------- */
+  .brand-common-reccomends ._title { padding: 16px; }
+  .brand-common-reccomends ._title h2 { font-size: 1.25rem; }
+  .brand-common-reccomends ._inner { margin-top: 50px; }
+  .brand-common-reccomends ._item ._texts { margin-top: 15px; }
+  .brand-common-reccomends ._item ._texts ._cap { font-size: 1.25rem; }
+  .brand-common-reccomends ._item ._texts ._txt { font-size: 1rem; margin-top: 10px; }
+  /* ----------------------------------------------------------
+ブランドページブロック / wisywigと汎用ブロック
+---------------------------------------------------------- */
+  .brand-common-wisywig h1, h1.mod-heading { width: 1056px; font-size: 1.625rem; }
+  .brand-common-wisywig h2, h2.mod-heading { font-size: 1.375rem; padding: 13px 0; }
+  .brand-common-wisywig h3, h3.mod-heading { font-size: 1.25rem; padding: 10px 0; }
+  .brand-common-wisywig h4, h4.mod-heading { font-size: 1.125rem; padding: 10px 0; }
+  .brand-common-wisywig h5, h5.mod-heading { font-size: 1rem; padding: 5px 0; }
+  /* ---------- ---------- ---------- */
+  .brand-common-wisywig { width: 1056px; }
+  .brand-common-wisywig li { font-size: 1rem; }
+  .brand-common-wisywig p { font-size: 1rem; }
+  figcaption { font-size: 0.875rem; margin: 10px 0; }
+  .brand-common-wisywig table, table.mod-table { margin: 10px 0; font-size: 1rem; border-top: 1px solid #d8d8d8; }
+  .brand-common-wisywig table th, table.mod-table th { padding: 20px; border-bottom: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; }
+  .brand-common-wisywig table td, table.mod-table td { padding: 20px; border-bottom: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; }
+  .mod-link-pagelink a { padding: 5px 15px 5px 0px; }
+  /* .mod-table-solid{ overflow: hidden; > table{ transform-origin :left top; } table { @if $sp { } th{ @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } td { @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } } } */ }
+
+@media (max-width: 767px) { /* ----------------------------------------------------------
+ブランドページブロック / 共通ブロック
+---------------------------------------------------------- */
+  .common-emergency { border: 3px solid red; margin: 15px 0; padding: 15px; font-size: 1rem; }
+  .brand-common-title { padding: 12px 0; }
+  .brand-common-title ._title h1 span._en { margin-right: 10px; padding-right: 10px; padding-left: 35px; font-size: 1.5rem; }
+  .brand-common-title ._title h1 span._en:before { top: 5px; font-size: 30px; }
+  .brand-common-title ._title._title-menu h1 span._en { border-right: none; }
+  .brand-common-title ._title._title-menu h1 span._ja { display: none; }
+  .brand-common-title ._skip { font-size: 10px; font-weight: bold; margin-top: 10px; padding: 0 15px 0 25px; }
+  .brand-common-title ._links { display: none; }
+  .brand-common-title ._links ul { margin: 0; }
+  .brand-common-title ._links li { font-size: 13px; font-weight: bold; display: inline-block; margin: 0 0 0 15px; padding: 0 0 0 10px; border-left: 1px solid #ddd; }
+  .brand-common-title ._links li:first-child { border: none; }
+  .brand-common-section { margin: 40px 0 15px 0; }
+  /* ---------- ---------- ---------- */
+  .brand-common-section .brand-common-title { padding: 0 0 10px 0; margin: 10px 0; }
+  .brand-common-section .brand-common-title h2 { font-size: 1.125rem; }
+  /* ---------- ---------- ---------- */
+  .brand-common-recents ._title { padding: 10px; }
+  .brand-common-recents ._title h2 { font-size: 1rem; }
+  .brand-common-recents ._inner { margin: 25px 0 0 0; }
+  .brand-common-recents ._items ._item { width: 95px; margin: 0; padding: 1px 0 0 16.2px; }
+  .brand-common-recents ._items ._item ._texts { margin-top: 5px; }
+  .brand-common-recents ._items ._item ._texts ._cap { font-size: 0.75rem; }
+  /* ---------- ---------- ---------- */
+  .brand-common-recents .slick-prev, .brand-common-recents .slick-next { width: 12px; height: 12px; }
+  .brand-common-recents .slick-prev.slick-disabled, .brand-common-recents .slick-next.slick-disabled { border-top: 2px solid #eee; border-right: 2px solid #eee; }
+  .brand-common-recents .slick-dots { margin-top: 10px; }
+  .brand-common-recents .slick-dots li { width: 10px; height: 10px; padding: 0; margin: 0 5px !important; transform: translate(0, 4px); }
+  /* ---------- ---------- ---------- */
+  .brand-common-reccomends ._title { padding: 10px; }
+  .brand-common-reccomends ._title h2 { font-size: 1rem; }
+  .brand-common-reccomends ._inner { margin-top: 25px; }
+  .brand-common-reccomends ._item ._texts { margin-top: 10px; }
+  .brand-common-reccomends ._item ._texts ._cap { font-size: 0.875rem; }
+  .brand-common-reccomends ._item ._texts ._txt { font-size: 0.75rem; margin-top: 2px; }
+  /* ----------------------------------------------------------
+ブランドページブロック / wisywigと汎用ブロック
+---------------------------------------------------------- */
+  .brand-common-wisywig h1, h1.mod-heading { width: 100%; font-size: 1.25rem; }
+  .brand-common-wisywig h2, h2.mod-heading { font-size: 1.0625rem; padding: 7px 0; }
+  .brand-common-wisywig h3, h3.mod-heading { font-size: 1rem; padding: 7px 0; }
+  .brand-common-wisywig h4, h4.mod-heading { font-size: 0.9375rem; padding: 7px 0; }
+  .brand-common-wisywig h5, h5.mod-heading { font-size: 0.875rem; padding: 5px 0; }
+  /* ---------- ---------- ---------- */
+  .brand-common-wisywig { width: 100%; }
+  .brand-common-wisywig img { max-width: 100%; }
+  .brand-common-wisywig li { font-size: 0.875rem; }
+  .brand-common-wisywig p { font-size: 0.875rem; }
+  figcaption { font-size: 0.75rem; margin: 5px 0; }
+  .brand-common-wisywig table, table.mod-table { margin: 5px 0; font-size: 0.875rem; border-bottom: 1px solid #d8d8d8; }
+  .brand-common-wisywig table th, table.mod-table th { padding: 10px; display: block; border-top: 1px solid #d8d8d8; }
+  .brand-common-wisywig table th:last-child, table.mod-table th:last-child { border: none; }
+  .brand-common-wisywig table td, table.mod-table td { padding: 10px; display: block; border-bottom: 1px solid #d8d8d8; }
+  .brand-common-wisywig table td:last-child, table.mod-table td:last-child { border: none; }
+  table.mod-no-responsive th { display: table-cell; font-size: 0.625rem; padding: 5px; border: 1px solid #d8d8d8; border-left: none; }
+  table.mod-no-responsive th:last-child { border-right: none; }
+  table.mod-no-responsive td { display: table-cell; font-size: 0.625rem; padding: 5px; border: 1px solid #d8d8d8; border-left: none; }
+  table.mod-no-responsive td:last-child { border-right: none; }
+  .mod-link-pagelink a { padding: 5px 5px 5px 0px; }
+  /* .mod-table-solid{ overflow: hidden; > table{ transform-origin :left top; } table { @if $sp { } th{ @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } td { @if $sp { display: table-cell; padding: 20px; border: 1px solid $border-color3; &:last-child{ border: 1px solid $border-color3; } } } } } */ }

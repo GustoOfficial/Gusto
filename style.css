@@ -1,0 +1,557 @@
+CSS / サイト共通 -->
+
+<!--   <link href="/site_resource/common/css/libs/normalize.css" rel="stylesheet
+<link href="/site_resource/common/css/fonts.css" rel="stylesheet
+<link href="/site_resource/common/css/headerfooter.css" rel="stylesheet
+<link href="/site_resource/common/css/headerfooter_pc.css" rel="stylesheet" media="print, screen and (min-width:768px)
+<link href="/site_resource/common/css/headerfooter_sp.css" rel="stylesheet" media="screen and (max-width:767px) -->
+
+<!-- CSS / ブランド共通 -->
+<!-- 
+<link href="/site_resource/common/css/libs/slick.css" rel="stylesheet
+<link href="/site_resource/common/css/brand/module.css" rel="stylesheet
+<link href="/site_resource/common/css/brand/common.css" rel="stylesheet
+<link href="/site_resource/common/css/brand/pages.css" rel="stylesheet -->
+
+<!-- CSS / ブランド別 -->
+
+<!-- <link href="/site_resource/gusto/css/color.css" rel="stylesheet -->
+
+
+
+
+
+<!-- body .page-brand-index -->
+
+<!-- contents -->
+<!-- .area-contents -->
+
+
+
+<!-- KV -->
+
+
+
+
+
+<!-- 
+
+.brand-index-mv
+.mod-wrap
+.js-top-kv
+._items js-list-topKv
+._item mod-hover
+href="https://www.skylark.co.jp/company/store_ventilation.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_info_A_gt.png" alt="店内換気
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="https://www.youtube.com/watch?v=TSNnMcBXSI0" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_info_A.png" alt="新型コロナウィルス感染拡大予防の取り組み
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="/link/takuhai.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_info_RS.png" alt="すかいらーくグループの宅配
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="/link/takeout.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_to.png" alt="すかいらーくのお持ち帰り
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="/online_shopping/index.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_online_shopping.png" alt="すかいらーくグループの通信販売
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="/gotoeat_ticket/index.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_gotoeat_ticket.png" alt="GO TO Eatキャンペーン
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+._item mod-hover
+href="https://www.youtube.com/watch?v=O17Mvl4u_6w&amp;feature=youtu.be" target="_blank
+src="/gusto/pk637h000005l6xn-img/kv_img_info_D.png" alt="すかいらーくは、フードロス削減のため、食べきれなかったお料理のお持ち帰りを推奨しています。お持ち帰り用の容器をご用意しております。
+._more" style="font-size: 1.0rem; padding: 6px 10px 3px 20px;詳しくはこちら</p>
+
+
+
+
+
+style="text-align: center;
+
+._en mod-text-en" style="color: #990000重要なお知らせ</span>
+._ja corporate-index-visuals" style="margin: 10px;margin-bottom: 30px;
+target="_blank" href="https://www.skylark.co.jp/company/news_covid19.html  " .mod-show-pc" style="background-color: #990000; border-radius: 7px; font-size: 1.0em; color: white; padding: 10px;新型コロナウィルス感染拡大に伴う対応について
+
+target="_blank" href="https://www.skylark.co.jp/company/news_covid19.html  " .mod-show-sp" style="background-color: #990000; border-radius: 7px; font-size: 0.6em; color: white; padding: 5px;新型コロナウィルス感染拡大に伴う対応について
+
+
+
+
+
+
+
+
+.brand-index-abouts-wapper" style="background-image: url(/うんこ/img/about_bg.jpg)
+
+
+
+.brand-index-about mod-link-color-brand
+.mod-wrap mod-wrap-sp
+src="/site_resource/gusto/images/about_ttl.png" alt="知ってた!? ガストのあれこれ
+.mod-grid02
+
+._item
+href="/gusto/flyer/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_flyer.png" alt="最新チラシ公開中
+
+
+._texts
+._cap mod-link-arrow最新チラシ公開中</p>._txt最新チラシはこちら。随時更新いたします。ご来店の前やお持ち帰りご購入前にぜひチェックしてください！</p>
+
+
+
+
+._item
+href="/gusto/menu/fair/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_fair.png" alt="暑さ乗り切る！！彩り夏ごはん
+
+
+._texts
+._cap mod-link-arrow暑さ乗り切る！！彩り夏ごはん</p>._txt「釜あげしらすとオクラの夏ごはん」や「チーズINビビンバーグごはん」などをお楽しみください。</p>
+
+
+
+
+._item
+href="/gusto/tv/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_tv.png" alt="番組情報
+
+
+._texts
+._cap mod-link-arrow番組情報</p>._txt7月11日（日）放送のTBS『坂上&amp;指原のつぶれない店』でガストのメニューが紹介されました！</p>
+
+
+
+
+._item
+href="/to_recommend/index.html" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_tors_fusion.png" alt="お持ち帰り＆宅配グルメ特集
+
+
+._texts
+._cap mod-link-arrowお持ち帰り＆宅配グルメ特集</p>._txtおうちで楽しむ！すかいらーくグループのお持ち帰り＆宅配グルメを大特集！</p>
+
+
+
+
+._item
+href="/gusto/menu/dessert/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_dessert.png" alt="マンゴースイーツ&amp;かき氷
+
+
+._texts
+._cap mod-link-arrowマンゴースイーツ&amp;かき氷</p>._txtとろけるマンゴースイーツとかき氷をお楽しみください。</p>
+
+
+
+
+._item
+href="/gusto/paper_menu/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_paper.jpg" alt="最新メニュー公開中
+
+
+._texts
+._cap mod-link-arrow最新メニュー公開中</p>._txt最新メニューはこちら。随時更新いたします。ご来店の前やお持ち帰りご購入前にぜひチェックしてください！</p>
+
+
+
+
+._item
+href="/link/takeout.html" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_03.png" alt="ガストのお持ち帰り
+
+
+._texts
+._cap mod-link-arrowガストのお持ち帰り</p>._txtインターネットで注文！ショップで受け取り！</p>
+
+
+
+
+._item
+href="/link/takuhai.html" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_delivery_gt.png" alt="ガストの宅配
+
+
+._texts
+._cap mod-link-arrowガストの宅配</p>._txtすかいらーくの宅配サイトはこちらから！<br>
+お得な割引クーポン掲載中！ぜひ、ご利用ください。</p>
+
+
+
+
+._item
+href="https://delivery.skylark.co.jp/news/app_unagi2021" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_tors_unagi.png" alt="【数量限定】うなぎご予約承り中
+
+
+._texts
+._cap mod-link-arrow【数量限定】うなぎご予約承り中</p>._txt7月28日（水）は丑の日！すかいらーくグループ各店のテイクアウト・宅配うなぎメニューをご紹介！</p>
+
+
+
+
+._item
+href="/gusto/menu/karayoshi/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_karayoshi.png" alt="から好しのから揚げ
+
+
+._texts
+._cap mod-link-arrowから好しのから揚げ</p>._txt『から揚げ専門店』から好しのから揚げがガストで販売中！店内飲食はもちろん、テイクアウトでも宅配でもOK！</p>
+
+
+
+
+._item
+href="/gusto/menu/rei_pizza/index.html" .mod-hover
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_rei_pizza.jpg" alt="ガストの冷凍ピザ
+
+
+._texts
+._cap mod-link-arrowガストの冷凍ピザ</p>._txtガスト全店で販売開始！ガストの冷凍ピザがお持ち帰りできます！</p>
+
+
+
+
+._item
+href="/online_shopping/index.html" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_online_shopping.png" alt="すかいらーくグループの通販
+
+
+._texts
+._cap mod-link-arrowすかいらーくグループの通販</p>._txtすかいらーくグループの通信販売スタート！<br>
+レストランの人気メニューをご自宅でお楽しみください。</p>
+
+
+
+
+._item
+href="/gotoeat_ticket/index.html" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_gotoeat_ticket.png" alt="全ブランドでお食事券をご利用いただけます！
+
+
+._texts
+._cap mod-link-arrow全ブランドでお食事券をご利用いただけます！</p>._txt※一部店舗ではご利用いただけません<br>
+※山梨県の店舗はご利用いただけません</p>
+
+
+
+
+._item
+href="/premium_ticket/store.pdf" .mod-hover" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_premium_ticket.png" alt="地域振興券（プレミアム付 商品券）
+
+
+._texts
+._cap mod-link-arrow地域振興券（プレミアム付 商品券）</p>._txtご利用可能な店舗と商品券については「一覧表（PDF）」でご確認をお願いいたします。</p>
+
+
+
+
+
+
+</section>
+
+.brand-common-section brand-index-campaign mod-link-color-brand
+.mod-wrap mod-wrap-sp
+.brand-index-subtitle
+<h2 ._title _title-campain
+._en mod-text-en mod-text-color-brandCAMPAIGN</span>
+._jaキャンペーン情報</span>
+
+
+.mod-grid02 _items
+
+._item mod-hover _item-yellow
+href="https://delivery.skylark.co.jp/?utm_source=sk_app&amp;utm_medium=banner&amp;utm_campaign=new15" ." target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_rs_gt.jpg" alt="
+
+._texts
+._cap mod-link-arrow宅配サイト新規会員登録でもらえる</p>._txtすかいらーくの宅配をお得にご利用ください。  </p>
+
+
+
+
+
+
+</section>
+
+.brand-common-section brand-index-kids mod-link-color-brand
+.mod-wrap mod-wrap-sp
+.brand-index-subtitle
+<h2 ._title _title-kids
+._en mod-text-en mod-text-color-brandKIDS</span>
+._jaキッズ情報</span>
+
+
+.mod-grid02 _items
+
+._item mod-hover _item-red
+href="/toy/index.html
+._imagesrc="/gusto/pk637h000005l6xn-img/img_kids_01.png" alt="
+
+._texts
+._cap mod-link-arrowオリジナルカプセルトイ</p>._txt「ブングウェポン（全4種）」＆「トゥインクルスタージュエル（全4種）」が登場！</p>
+
+
+
+
+._item mod-hover _item-red
+href="https://www.skylark-anpanman.com/" target="_blank
+._imagesrc="/gusto/pk637h000005l6xn-img/img_about_anpan.png" alt="
+
+._texts
+._cap mod-link-arrow親子でうれしい★アンパンマンクラブ</p>._txtキッズメニューでポイントをためるとアンパンマンのオリジナルグッズがお店でもらえる♪</p>
+
+
+
+
+
+
+</section>
+
+.mod-wrap mod-wrap-sp
+.brand-index-subtitle<h2 ._title _title-free._en mod-text-en mod-text-color-brandGUIDE</span>._jaご案内</span>
+
+.brand-index-free-list
+.mod-wrap mod-wrap-sp
+.mod-grid02 _items
+
+._item
+._banner mod-hover" href="/wi-fi/index.html
+src="/gusto/pk637h000005l6xn-img/bnr_wifi.png" alt="すかいらーくの全国店舗でつかえます！
+
+
+
+._item
+._banner mod-hover" href="/socialmedia/index.html
+src="/gusto/pk637h000005l6xn-img/bnr_sns.png" alt="ソーシャルメディア公式アカウント一覧
+
+
+
+._item
+._banner mod-hover" href="http://allergy.skylark.co.jp/" target="_blank
+src="/gusto/pk637h000005l6xn-img/bnr_allergy.png" alt="アレルギー物質の情報
+
+
+
+
+
+
+
+
+
+
+.brand-index-payment mod-link-color-brand
+.mod-wrap mod-wrap-sp
+店舗でのお支払いについて
+.mod-grid02 _items
+._item
+href="/pay/index.html" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_creditcard.png" alt="</span>
+._texts
+._cap mod-link-arrowクレジットカード・電子マネー</p>
+._txt全国の店舗で利用できます。詳細はリンク先をご確認ください。</p>
+
+
+._item
+href="https://ir.skylark.co.jp/stock/benefit.html" target="_blank" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_benefit.png" alt="</span>
+._texts
+._cap mod-link-arrow株主様ご優待カード</p>
+._txt『株主様ご優待カード』のご利用方法・残高照会はこちらから。</p>
+
+
+._item
+href="/link/yutaiken.html" target="_blank" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_specialcoupon.jpg" alt="</span>
+._texts
+._cap mod-link-arrowすかいらーくご優待券</p>
+._txtご優待番号（９桁英数字）をお持ちの方専用の管理サイトはこちらから。</p>
+
+
+._item
+href="/link/dpoint.html" target="_blank" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_dpoint.png" alt="</span>
+._texts
+._cap mod-link-arrowdポイント</p>
+._txt街のお店やネットショッピングで、dポイントをためる・つかうことができます。</p>
+
+
+._item
+href="/link/rpoint.html" target="_blank" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_Rpoint.png" alt="</span>
+._texts
+._cap mod-link-arrow楽天ポイント</p>
+._txt街のいろいろなお店でのお買い物やお食事でも、楽天ポイントが使える！貯まる！</p>
+
+
+._item
+href="/link/t-point.html" target="_blank" ._item-inner mod-hover
+._image<span>src="/gusto/pk637h000005l6xn-img/payment_img_tpoint.png" alt="</span>
+._texts
+._cap mod-link-arrowTポイント</p>
+._txtご利用金額に応じてTポイントを貯めたり、お使いいただけます。</p>
+
+
+._item _item-nomargin
+._banner mod-hover" href="/pay/qr_store/index.html" target="_blank
+src="/gusto/pk637h000005l6xn-img/payment_img_qr_store.png" alt="店舗で、QRコード決済をご利用いただけます。
+
+
+
+
+</section>
+
+.brand-common-section brand-index-information mod-link-color-brand
+
+.mod-wrap mod-wrap-sp
+.brand-index-subtitle
+<h2 ._title _title-news
+._en mod-text-en mod-text-color-brandINFORMATION</span>
+._jaお知らせ</span>
+
+
+.js-information
+.js-information-wrap
+._items js-information-list
+
+
+._date2021/07/15._label _label-fairフェア情報</span></p>
+._txthref="/gusto/menu/fair/index.html" .mod-link-arrow＜暑さ乗り切る！！彩り夏ごはん＞<br>
+冷たい麺、釜あげしらすとオクラの夏ごはん、チーズINビビンバーグごはん、うな丼などガストの夏メニューをお楽しみください。</p>
+
+
+
+._date2021/07/15._label _label-osusumeおすすめメニュー</span></p>
+._txthref="/to_recommend/index.html" .mod-link-arrow" target="_blank＜お持ち帰り＆宅配グルメ特集＞<br>
+おうちで楽しむ！すかいらーくグループでオススメのお持ち帰り＆宅配グルメをご紹介します！</p>
+
+
+
+._date2021/07/12._label _label-infoお知らせ</span></p>
+._txthref="/gusto/tv/index.html" .mod-link-arrow＜番組情報＞<br>
+7月11日（日）放送のTBS『坂上&amp;指原のつぶれない店』でガストのメニューが紹介されました！</p>
+
+
+
+._date2021/07/11._label _label-infoお知らせ</span></p>
+._txthref="/company/news/press_release/pk637h000003wl22-att/201125.pdf" .mod-link-arrow mod-icon-pdf" target="_blank「飲食店の営業時間短縮要請」に伴う対応について</p>
+
+
+
+._date2021/06/30._label _label-osusumeおすすめメニュー</span></p>
+._txthref="https://delivery.skylark.co.jp/news/app_unagi2021" .mod-link-arrow" target="_blank＜【数量限定】うなぎご予約承り中＞<br>
+7月28日（水）は丑の日！すかいらーくグループ各店のテイクアウト・宅配うなぎメニューをご紹介！</p>
+
+
+
+._date2021/06/29._label _label-infoお知らせ</span></p>
+._txthref="/company/news/press_release/pk637h000005jqn2-att/210430_Anpanman.pdf" .mod-link-arrow mod-icon-pdf" target="_blank「アンパンマンクラブポイントカード 」ポイント有効期限延長に関するお知らせ</p>
+
+
+
+._date2021/06/01._label _label-infoお知らせ</span></p>
+._txthref="https://www.skylark.co.jp/company/news/press_release/pk637h000005p555-att/210601_Fundraising.pdf" .mod-link-arrow mod-icon-pdf" target="_blank「子どもの遊び場支援募金」活動開始</p>
+
+
+
+._date2021/05/27._label _label-osusumeおすすめメニュー</span></p>
+._txthref="/gusto/menu/dessert/index.html" .mod-link-arrow＜マンゴースイーツ&amp;かき氷＞<br>
+とろけるマンゴースイーツとかき氷をお楽しみください。</p>
+
+
+
+._date2021/04/28._label _label-kidsカプセルトイ</span></p>
+._txthref="/toy/index.html" .mod-link-arrow＜オリジナルカプセルトイ＞<br>
+カッコイイ武器型文具 「ブングウェポン（全4種）」＆キラッと心も輝く「トゥインクルスタージュエル（全4種）」が登場！</p>
+
+
+
+._date2021/04/22._label _label-osusumeおすすめメニュー</span></p>
+._txthref="/gusto/menu/rei_pizza/index.html" .mod-link-arrow＜ガストの冷凍ピザ＞<br>
+ガスト全店で販売開始！ガストの冷凍ピザがお持ち帰りできます！</p>
+
+
+
+._date2020/11/02._label _label-infoお知らせ</span></p>
+._txthref="/online_shopping/index.html" .mod-link-arrow" target="_blank＜すかいらーくグループの通信販売スタート！＞<br>
+レストランの人気メニューをご自宅でお楽しみください。</p>
+
+
+
+._date2020/10/15._label _label-infoお知らせ</span></p>
+._txthref="/pay/qr_store/index.html" .mod-link-arrow" target="_blank＜ＱＲコード決済＞<br>
+auPAY、J-Coin Payがご利用いただけるようになりました。※一部店舗を除く</p>
+
+
+
+._date2018/02/20._label _label-infoお知らせ</span></p>
+._txthref="/company/news/info/2018/pk637h000000keua-att/180220.pdf" .mod-link-arrow mod-icon-pdf" target="_blank【お知らせ】弊社店舗でのQUOカード取扱い終了のお知らせ</p>
+
+
+
+
+
+
+</section>
+
+
+
+.brand-common-section
+.mod-wrap mod-wrap-sp
+.mod-grid02
+
+.mod-btn mod-btn-white" href="https://allergy.skylark.co.jp/010016" target="_blankアレルギー情報
+
+.mod-btn mod-btn-white mod-btn-pdf" href="/gusto/pk637h0000000452-att/origin_gt.pdf" target="_blankメニュー別主要食材原産地一覧
+
+
+
+
+
+
+
+
+.mod-wrap mod-wrap-sp
+href="/link/kizuna.html" target="_blank
+.mod-show-pc" src="/site_resource/brand/images/brand_top/bnr_kizuna_pc.jpg" alt="ご質問がございましたら私がお答えします！
+.mod-show-sp" src="/site_resource/brand/images/brand_top/bnr_kizuna_sp.jpg" alt="ご質問がございましたら私がお答えします！
+
+
+</div
+
+
+
+
+
+<script src="/gusto/common_4/include/footer.js</script>
+
+<script type="application/ld+json
+{
+"@context": "http://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"name": "ガストTOP" 
+}}]}
+</script>
+</body>
+</html>
+
+ -->
